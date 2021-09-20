@@ -28,4 +28,5 @@
 .navBar__holder {
   position: relative;
   top: 20px;
+  z-index: 999;
 }
