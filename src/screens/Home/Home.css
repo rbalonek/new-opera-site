@@ -1,0 +1,24 @@
+.home__container {
+  background-color: black;
+  min-height: 82vh;
+  text-align: -webkit-center;
+}
+.home__carousel-holder {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  width: 850px;
+}
+
+@media (max-width: 900px) {
+  .home__carousel-holder {
+    width: 500px;
+  }
+}
+@media (max-width: 500px) {
+  .home__carousel-holder {
+    width: 250px;
+  }
+}

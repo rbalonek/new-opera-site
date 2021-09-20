@@ -1,0 +1,18 @@
+.carousel {
+  width: 800px;
+}
+.carousel__image {
+  height: 500px;
+  /* width: 500px; */
+}
+
+@media (max-width: 900px) {
+  .carousel__image {
+    height: 300px;
+  }
+}
+@media (max-width: 500px) {
+  .carousel__image {
+    height: 150px;
+  }
+}

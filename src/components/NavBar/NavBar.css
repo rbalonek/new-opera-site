@@ -1,0 +1,10 @@
+.nav__container {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: blue; */
+  width: 50vw;
+}
+.nav__container p:hover {
+  color: red;
+  cursor: pointer;
+}

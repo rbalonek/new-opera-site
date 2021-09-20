@@ -1,0 +1,31 @@
+.header__container {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  background-color: white;
+}
+
+.header__logo__container {
+  display: flex;
+  flex-direction: column;
+}
+.header__logo-title {
+  /* text-decoration: underline;
+  text-decoration-thickness: 2px; */
+  border-bottom: 1px solid black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.header__logo-fach {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: small;
+  position: relative;
+  bottom: 30px;
+  left: 20px;
+  letter-spacing: 18px;
+}
+.navBar__holder {
+  position: relative;
+  top: 20px;
+}
