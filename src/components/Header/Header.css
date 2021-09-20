@@ -3,6 +3,22 @@
   justify-content: space-around;
   height: 100px;
   background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  transition-duration: 1s;
+  transition-property: height;
+}
+.header__container-smaller {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  transition-duration: 1s;
+  transition-property: height;
 }
 
 .header__logo__container {
@@ -15,18 +31,58 @@
   border-bottom: 1px solid black;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+  transition-duration: 1.5s;
+  transition-property: font-size;
+}
+.header__logo-title-smaller {
+  position: relative;
+  bottom: 10px;
+  /* text-decoration: underline;
+  text-decoration-thickness: 2px; */
+  border-bottom: 1px solid black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 4px;
+  font-size: 20px;
+  transition-duration: 1s;
+  transition-property: font-size;
 }
 .header__logo-fach {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: small;
   position: relative;
-  bottom: 30px;
+  bottom: 28px;
   left: 20px;
   letter-spacing: 18px;
+  font-size: 10px;
+  transition-duration: 100ms;
+  transition-property: font-size;
+}
+.header__logo-fach-smaller {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: small;
+  position: relative;
+  bottom: 30px;
+  left: 20px;
+  letter-spacing: 15px;
+  font-size: 10px;
+  transition-duration: 1s;
+  transition-property: font-size;
 }
 .navBar__holder {
   position: relative;
   top: 20px;
   z-index: 999;
+  transition-duration: 1s;
+  transition-property: top;
+}
+.navBar__holder-smaller {
+  position: relative;
+  top: 0px;
+  z-index: 999;
+  transition-duration: 1s;
+  transition-property: top;
 }

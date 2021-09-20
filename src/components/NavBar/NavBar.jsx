@@ -6,7 +6,6 @@ import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
 export default function NavBar() {
   const [toggle, setToggle] = useState(false);
   let history = useHistory();
-
   const handleClickToggle = () => {
     setToggle(!toggle);
   };
