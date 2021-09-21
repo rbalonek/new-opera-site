@@ -81,7 +81,7 @@
 }
 .navBar__holder-smaller {
   position: relative;
-  top: 0px;
+  top: 5px;
   z-index: 999;
   transition-duration: 1s;
   transition-property: top;

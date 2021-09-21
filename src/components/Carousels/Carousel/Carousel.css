@@ -6,6 +6,16 @@
   /* width: 500px; */
 }
 
+@media (max-width: 1300px) {
+  .carousel {
+    width: 500px;
+  }
+  .carousel__image {
+    height: 300px;
+    /* width: 500px; */
+  }
+}
+
 @media (max-width: 900px) {
   .carousel__image {
     height: 300px;

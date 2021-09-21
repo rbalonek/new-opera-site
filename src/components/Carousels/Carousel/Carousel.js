@@ -4,6 +4,13 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default function CarouselHome(props) {
+  // var myStyle = document.getElementById("1the");
+  // console.log("myStyle", myStyle);
+
+  // if (myStyle < 0) {
+  //   console.log("Div is hidden!!");
+  // }
+
   return (
     <Carousel
       className="carousel"
@@ -15,11 +22,11 @@ export default function CarouselHome(props) {
       // showArrows={true}
     >
       {props.Images &&
-        props.Images.map((image) => (
-          <div
-          // style={{ height: "500px" }}
-          >
+        props.Images.map((image, index) => (
+          <div>
             <img
+              id={index + 1 + "the"}
+              key={index}
               className="carousel__image"
               style={{
                 // height: "500px",

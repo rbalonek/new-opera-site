@@ -21,9 +21,9 @@ export default function UpcomingGigs() {
           DATE: <span className="bold">Nov 12-14</span>
         </p>
       </div>
-      <h2>2022</h2>
+      <h2 className="underline">2022</h2>
       <div className="twentyTwo-shows">
-        <div className="upcoming___show-container">
+        <div className="upcoming___show-container split__2022">
           <img
             alt="bohemeNJ"
             src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145907/robertbalonek.com/Logos/p3789966395-11_g5a6um.jpg"
@@ -38,8 +38,8 @@ export default function UpcomingGigs() {
             DATE: <span className="bold">March 18-20</span>
           </p>
         </div>
-        <hr />
-        <div className="upcoming___show-container">
+
+        <div className="upcoming___show-container split__2022">
           <img
             alt="ootj"
             src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624394360/robertbalonek.com/Logos/OperaModesto_tggc0y.jpg"
