@@ -18,11 +18,11 @@
 .footer__social-icons {
   height: 50%;
   position: relative;
-  top: 5px;
+  top: 15px;
   cursor: pointer;
 }
 .footer__social-icons:hover {
-  transform: scale(1.5);
+  transform: scale(1.9);
   transition: 250ms all;
   transition: all 0.2s ease-in-out;
 }

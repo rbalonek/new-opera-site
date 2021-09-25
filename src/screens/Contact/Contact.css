@@ -1,0 +1,37 @@
+.contact__split {
+  display: flex;
+  justify-content: space-around;
+}
+.contact__copy {
+  color: white;
+  width: 300px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+.contact__image-holder {
+}
+.contact__image {
+  width: 500px;
+  position: relative;
+  top: 150px;
+}
+.Red {
+  color: red;
+}
+
+@media (max-width: 900px) {
+  .contact__split {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .contact__image {
+    width: 320px;
+    position: relative;
+    top: 10px;
+  }
+  .contact__copy {
+    align-self: center;
+    margin-bottom: 150px;
+  }
+}
