@@ -6,7 +6,10 @@ import { Fade } from "react-awesome-reveal";
 
 export default function Header() {
   function myFunction() {
-    if (document.body.scrollTop > 5 || document.documentElement.scrollTop > 5) {
+    if (
+      document.body.scrollTop >= 1 ||
+      document.documentElement.scrollTop >= 1
+    ) {
       document.getElementById("header__container").className =
         "header__container-smaller";
       document.getElementById("name").className = "header__logo-title-smaller";
