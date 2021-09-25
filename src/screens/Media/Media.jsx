@@ -7,3 +7,9 @@ export default function Media() {
     </div>
   );
 }
+
+// <video
+//         controls
+//         src="https://bit.ly/3nWh78w"
+//         poster="posterImage.png"
+//       ></video>

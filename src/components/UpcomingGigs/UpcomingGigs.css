@@ -43,5 +43,6 @@
 @media (max-width: 450px) {
   .twentyTwo-shows {
     flex-direction: column;
+    align-content: center;
   }
 }
