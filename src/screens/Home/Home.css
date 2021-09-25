@@ -39,13 +39,15 @@
   top: 100px;
 }
 .home__upcoming-gigs {
+  margin-bottom: 50px;
 }
 
 @media (max-width: 1300px) {
   .home__split {
-    /* flex-direction: column; */
+    flex-direction: column;
     align-items: center;
-    top: 0px;
+    /* top: 0px; */
+    top: 5px;
   }
   .home__container {
     text-align: -webkit-center;
@@ -54,21 +56,26 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    width: 500px;
-    box-shadow: 0 4px 14px 0 white;
-    height: 300px;
+    /* box-shadow: 0 4px 14px 0 white; */
+    /* width: 500px; */
+    /* height: 300px; */
+    width: 100vw;
+    /* width: 500px; */
+    /* width: 500px; */
+    height: auto;
   }
 }
 
 @media (max-width: 900px) {
   .home__carousel-holder {
-    width: 500px;
-    /* width: ; */
+    /* width: 500px; */
+    width: 100vw;
+    height: auto;
   }
   .home__split {
     flex-direction: column;
     align-items: center;
-    top: 0px;
+    top: -40px;
   }
   .home__container {
     margin-top: 50px;
@@ -77,7 +84,9 @@
 }
 @media (max-width: 500px) {
   .home__carousel-holder {
-    width: 300px;
-    height: 170px;
+    /* width: 300px;
+    height: 170px; */
+    width: 100vw;
+    height: auto;
   }
 }

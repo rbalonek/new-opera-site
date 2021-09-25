@@ -7,8 +7,8 @@ import { Fade } from "react-awesome-reveal";
 export default function Header() {
   function myFunction() {
     if (
-      document.body.scrollTop > 50 ||
-      document.documentElement.scrollTop > 50
+      document.body.scrollTop > 100 ||
+      document.documentElement.scrollTop > 100
     ) {
       document.getElementById("header__container").className =
         "header__container-smaller";
