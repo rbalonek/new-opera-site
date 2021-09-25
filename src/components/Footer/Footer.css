@@ -10,9 +10,19 @@
 }
 .footer_copywrite {
   color: gray;
+  font-size: 12px;
+  position: relative;
+  top: 20px;
+  cursor: pointer;
 }
 .footer__social-icons {
-  height: 80%;
+  height: 50%;
   position: relative;
   top: 5px;
+  cursor: pointer;
+}
+.footer__social-icons:hover {
+  transform: scale(1.5);
+  transition: 250ms all;
+  transition: all 0.2s ease-in-out;
 }

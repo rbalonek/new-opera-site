@@ -9,7 +9,13 @@ export default function Footer() {
   return (
     <div className="footer__container">
       <img className="footer__social-icons" src={Facebook} alt="facebook" />
-      <p className="footer_copywrite">© 2013 by Robert Balonek</p>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.robertbalonek.dev"
+      >
+        <p className="footer_copywrite">© 2013 by Robert Balonek</p>
+      </a>
       <img className="footer__social-icons" src={Insta} alt="facebook" />
     </div>
   );
