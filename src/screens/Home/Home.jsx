@@ -17,7 +17,7 @@ export default function Home() {
         <div className="home__carousel-holder">
           <CarouselHome
             Images={[
-              `${headshot}`,
+              "https://res.cloudinary.com/bobalobbadingdong/image/upload/c_scale,h_350,w_600/v1632606575/robertbalonek.com/HomeCarousel/1_with-text_ypvrwu.jpg",
               `${Prospero}`,
               "https://res.cloudinary.com/bobalobbadingdong/image/upload/c_scale,h_350,w_600/v1632604066/robertbalonek.com/HomeCarousel/Shaunard_Text_ogcup6.jpg",
               "https://res.cloudinary.com/bobalobbadingdong/image/upload/c_scale,h_350,w_600/v1632602754/robertbalonek.com/HomeCarousel/Figaro_text_esprfv.png",
