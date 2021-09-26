@@ -38,9 +38,6 @@
   position: relative;
   top: 100px;
 }
-.home__upcoming-gigs {
-  margin-bottom: 50px;
-}
 
 @media (max-width: 1300px) {
   .home__split {
@@ -63,6 +60,9 @@
     /* width: 500px; */
     /* width: 500px; */
     height: auto;
+  }
+  .home__upcoming-gigs {
+    margin-bottom: 50px;
   }
 }
 
