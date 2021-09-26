@@ -1,0 +1,12 @@
+.engagements__container {
+  margin-bottom: 100px;
+}
+
+.engagement__performance-cards_holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.engagements__performance-card {
+  margin: 10px;
+}

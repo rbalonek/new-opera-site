@@ -87,7 +87,7 @@ audio {
 }
 @media (max-width: 590px) {
   .audio-player__container {
-    height: 160px;
+    height: 170px;
     width: 320px;
   }
   .audio-player__title {
@@ -108,7 +108,7 @@ audio {
   }
   audio {
     width: 250px;
-    right: 30px;
-    top: 40px;
+    right: 40px;
+    top: 30px;
   }
 }

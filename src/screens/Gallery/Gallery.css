@@ -9,4 +9,6 @@
 }
 .gallery__carousel-holder {
   margin-bottom: 50px;
+
+  text-align: -webkit-center;
 }

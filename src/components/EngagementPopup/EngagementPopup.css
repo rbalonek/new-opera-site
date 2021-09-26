@@ -1,0 +1,15 @@
+.engagement-popup__container {
+  background-color: black;
+  color: white;
+  height: 600px;
+  width: 800px;
+  position: relative;
+  left: 20%;
+  top: 20vh;
+
+  text-align: center;
+}
+.engagement-popup__carousel {
+  height: 200px;
+  width: 100%;
+}

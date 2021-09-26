@@ -6,7 +6,7 @@ import CarouselHome from "../../components/Carousels/Carousel/Carousel";
 import UpcomingGigs from "../../components/UpcomingGigs/UpcomingGigs";
 import "./Home.css";
 
-import headshot from "../../components/images/homeCarouselImgs/1_with-text.jpg";
+// import headshot from "../../components/images/homeCarouselImgs/1_with-text.jpg";
 import Prospero from "../../components/images/homeCarouselImgs/Prospero 1 copy.jpg";
 // import Shaunard from "../../components/images/homeCarouselImgs/Shaunard_Text.jpg";
 
