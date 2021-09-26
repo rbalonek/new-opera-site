@@ -70,7 +70,8 @@ audio {
 }
 .audio-player__controls {
   position: relative;
-  /* top: 11px; */
+  top: 15px;
+  left: 10px;
 }
 .audio-player__img {
   position: relative;
