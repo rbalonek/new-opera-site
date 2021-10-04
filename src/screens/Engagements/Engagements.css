@@ -14,3 +14,27 @@
 .engagements__performance-card {
   margin: 10px;
 }
+.btn {
+  width: 100px;
+  height: 40px;
+  cursor:pointer;
+  border:none;
+}
+.btn:hover {
+  opacity:70%;
+}
+.primary {
+  background-color: blue;
+  color: white;
+}
+.secondary {
+  background-color: #ffb90b;
+}
+.warning {
+  background-color: red;
+  color: white;
+}
+.success {
+  background-color: green;
+  color: white;
+}

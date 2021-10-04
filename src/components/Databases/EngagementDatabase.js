@@ -163,7 +163,7 @@ const Performances = [
     role: "Figaro",
     opera: "Barber of Seville",
     composer: "Rossini",
-    company: "Boston Midsummer Opera",
+    company: "",
     logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624387480/robertbalonek.com/Performances/Boston%20Midsummer%20Barber/BMO_Logo_ailrn2.jpg",
     dates: "July 25-29 2018",
     venue: "Mosesian Center for the Arts, Watertown, MA",
