@@ -103,7 +103,7 @@ const Performances = [
     role: "Bass Soloist",
     opera: "Christmas Oratorio",
     composer: "Bach",
-    company: "Canterbury Choral Society",
+    company: "",
     logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145907/robertbalonek.com/Logos/Canterbury_yzrqt6.png",
     dates: "November 24 2019",
     venue: "Church of the Heavenly Rest 2 E 90th St NYC",
