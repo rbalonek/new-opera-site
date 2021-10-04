@@ -22,10 +22,12 @@
 .upcoming___show-container {
   padding: 20px;
   /* height: 400px; */
+  color: white;
 }
 .split__2022 {
   width: 40%;
 }
+
 .upcoming___show-container:hover {
   background-color: red;
   cursor: pointer;
@@ -34,6 +36,9 @@
 .twentyTwo-shows {
   display: flex;
   flex-wrap: wrap;
+}
+.upcoming__show-text {
+  text-decoration: none;
 }
 @media (max-width: 1300px) {
   .upcoming__container {
