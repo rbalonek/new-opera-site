@@ -28,6 +28,26 @@
   color: #61dafb;
 }
 
+.btn {
+  width: 100px;
+  height: 30px;
+}
+.primary {
+  background-color: blue;
+  color: white;
+}
+.secondary {
+  background-color: #ffb90b;
+}
+.warning {
+  background-color: red;
+  color: white;
+}
+.success {
+  background-color: green;
+  color: white;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

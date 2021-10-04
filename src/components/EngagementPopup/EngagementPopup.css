@@ -4,12 +4,26 @@
   height: 600px;
   width: 800px;
   position: relative;
-  left: 20%;
   top: 20vh;
-
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: -webkit-center;
 }
 .engagement-popup__carousel {
   height: 200px;
   width: 100%;
+}
+.review-section {
+  padding: 20px;
+}
+.review-text {
+  color: white;
+  font-weight: 800;
+}
+.review-text-from {
+  color: white;
+  margin-top: -15px;
 }

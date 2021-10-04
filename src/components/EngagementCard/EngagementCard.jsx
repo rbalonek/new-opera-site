@@ -28,7 +28,17 @@ export default function EngagementCard(props) {
       <img className="enagement-card__logo" alt={props.role} src={props.logo} />
       <p className="enagement-card__dates">{props.dates}</p>
       <p className="enagement-card__venue">{props.venue}</p>
-      <button onClick={openModal}>Tickets</button>
+      {props.tickets === "true" ? (
+        <a href={props.ticketLink} target="_blank" rel="noopener noreferrer">
+          <button className="btn primary">Tickets</button>
+        </a>
+      ) : (
+        <>
+          <button onClick={openModal} className="btn secondary">
+            More Info
+          </button>
+        </>
+      )}
       <h4>{props.company}</h4>
 
       <Modal
@@ -39,14 +49,16 @@ export default function EngagementCard(props) {
         className="Modal"
         contentLabel="Modal"
       >
-        <EngagementPopup
-          reviews={props.reviews}
-          modalImages={props.modalImages}
-          handleClick={closeModal}
-          role={props.role}
-          opera={props.opera}
-          logo={props.logo}
-        />
+        <div className="engagement__popup__holder">
+          <EngagementPopup
+            reviews={props.reviews}
+            modalImages={props.modalImages}
+            handleClick={closeModal}
+            role={props.role}
+            opera={props.opera}
+            logo={props.logo}
+          />
+        </div>
       </Modal>
     </div>
   );

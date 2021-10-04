@@ -1,13 +1,13 @@
 const Performances = [
   {
     tickets: "true",
-    ticketLink: "https://www.bohemeopera.com/mainstage",
+    ticketLink: "https://www.bohemeopera.com/main-stage",
     role: "Rigoletto",
     opera: "Rigoletto",
     composer: "Verdi",
     company: "Boheme opera of NJ",
     logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145907/robertbalonek.com/Logos/p3789966395-11_g5a6um.jpg",
-    dates: "April 1-3, 2021",
+    dates: "April 1-3, 2022",
     venue: "Kendall Hall, Performance Theater NJ",
     modalImages: [
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145907/robertbalonek.com/Logos/p3789966395-11_g5a6um.jpg",
@@ -16,13 +16,27 @@ const Performances = [
   },
   {
     tickets: "true",
-    ticketLink: "https://www.operamodesto.org/concerts/",
+    ticketLink: "https://nycopera.com/shows/finzi/",
+    role: "Ernesto",
+    opera: "The garden of the Finzi-Continis",
+    composer: "Ricky Ian Gordon",
+    company: "",
+    logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601215498/robertbalonek.com/Logos/NYCOpera_szn6kj.png",
+    dates: "Jan 19-30 2022",
+    venue: "National Yiddish Theatre Folksbiene, NYC",
+    modalImages: [
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601215498/robertbalonek.com/Logos/NYCOpera_szn6kj.png",
+    ],
+  },
+  {
+    tickets: "true",
+    ticketLink: "https://www.operamodesto.org/", //"https://www.operamodesto.org/concerts/",
     role: "Marcello",
     opera: "La Boheme",
     composer: "Puccini",
     company: "Opera Modesto",
     logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624394360/robertbalonek.com/Logos/OperaModesto_tggc0y.jpg",
-    dates: "TBA",
+    dates: "April 30- May 1 2022",
     venue: "Gallo Center for the Arts, CA",
     modalImages: [
       "https://www.operamodesto.org/wp-content/uploads/2020/04/cropped-OperaModesto_Logo_RGB-White-04-120x52-1.png",
@@ -36,7 +50,7 @@ const Performances = [
     composer: "Rossini",
     company: "Opera On the James",
     logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624389679/robertbalonek.com/Performances/OOTJ%20Figaro/OOTJ_l2gjb0.webp",
-    dates: "TBA",
+    dates: "Nov 12-14 2021",
     venue: "Academy Center for the Arts, VA",
     modalImages: [
       "https://www.operamodesto.org/wp-content/uploads/2020/04/cropped-OperaModesto_Logo_RGB-White-04-120x52-1.png",

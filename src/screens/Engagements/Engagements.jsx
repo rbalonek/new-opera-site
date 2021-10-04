@@ -7,7 +7,7 @@ import EngagementCard from "../../components/EngagementCard/EngagementCard";
 export default function Engagements() {
   return (
     <div className="engagements__container">
-      <h1 style={{ color: "white" }}>ENGAGEMENTS</h1>
+      <h1 style={{ color: "black" }}>ENGAGEMENTS</h1>
       <div className="engagement__performance-cards_holder">
         {Performances &&
           Performances.map((performance) => (

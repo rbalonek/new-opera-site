@@ -5,6 +5,7 @@ import "./Media.css";
 import Saul from "../../components/Audio/Saul Sampler Shorter copy.mp3";
 import CarminaBurana from "../../components/Audio/Carmina Burana Sampler.mp3";
 import Shaunard from "../../components/Audio/Shaunard.mp3";
+import Haydn from "../../components/Audio/Haydn Creation Sample.mp3";
 import VoiceOverOne from "../../components/Audio/Reel - 5_25_20, 5.08 PM.mp3";
 import VoiceOverTwo from "../../components/Audio/60 sec reel2 2nd cut.mp3";
 
@@ -32,6 +33,12 @@ export default function Media() {
               role="Shaunard"
               URL={Shaunard}
               img="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601221847/robertbalonek.com/BobLiveShots/IMG_2592.JPG_pqvtap.jpg"
+            />
+            <AudioPlayer
+              title="Haydn Creation"
+              role="Soloist"
+              URL={Haydn}
+              img="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145841/robertbalonek.com/Headshots/Too_Much-_ay3b0k.jpg"
             />
             <h1>VOICE OVER</h1>
             <AudioPlayer
@@ -70,16 +77,28 @@ export default function Media() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           />
+          <iframe
+            className="media__video"
+            title="shaunard"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/Z1QB8nAEOBM"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          />
+          <iframe
+            className="media__video"
+            title="Blondel"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/l4a5MMiztuw"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          />
         </div>
       </div>
     </div>
   );
 }
-
-// <video
-//         controls
-//         src="https://bit.ly/3nWh78w"
-//         poster="posterImage.png"
-//       ></video>
-
-// https://www.dropbox.com/s/bbrriqyh5pxs8m2/Saul%20Sampler%20Shorter%20copy.mp3?dl=0
