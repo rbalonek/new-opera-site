@@ -25,6 +25,9 @@
   .carousel__image {
     height: 300px;
   }
+  .carousel {
+    max-width: 100vw;
+  }
 }
 @media (max-width: 500px) {
   .carousel__image {

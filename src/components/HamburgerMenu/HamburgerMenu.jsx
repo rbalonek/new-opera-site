@@ -4,12 +4,9 @@ import "./HamburgerMenu.css";
 export default function HamburgerMenu(props) {
   return (
     <div>
-      <label for="check">
-        <input onClick={props.handleClickToggle} type="checkbox" id="check" />
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
+      <h1 className="hamburger-icon" onClick={props.handleClickToggle}>
+        =
+      </h1>
     </div>
   );
 }

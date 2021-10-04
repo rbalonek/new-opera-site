@@ -48,7 +48,7 @@ export default function Media() {
               img="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145832/robertbalonek.com/Headshots/CoverPg_jfbfqm.jpg"
             />
             <AudioPlayer
-              title="Voice Over Reel Two"
+              title="   Voice Over Reel Two"
               role="Voice Over"
               URL={VoiceOverTwo}
               img="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1632613515/robertbalonek.com/Headshots/hsFace_kbxsok.jpg"

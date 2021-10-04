@@ -15,9 +15,9 @@
 .hamburger__menu__open {
   position: absolute;
   background-color: white;
-  top: -10px;
-  right: -50%;
-  width: 200px;
+  /* top: -10px; */
+  right: -50px;
+  width: 300px;
   text-align: center;
   box-shadow: 0 4px 14px 0 black;
 }
@@ -32,8 +32,10 @@
   }
   .hamburger__menu {
     display: block;
-    position: relative;
+    position: absolute;
+    top: -20px;
+    right: -10px;
     /* top: 10px; */
-    z-index: 999;
+    /* z-index: 999; */
   }
 }

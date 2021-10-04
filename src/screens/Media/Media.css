@@ -65,4 +65,7 @@
   .media__video {
     width: 320px;
   }
+  .audio-video__split {
+    width: 50vw;
+  }
 }

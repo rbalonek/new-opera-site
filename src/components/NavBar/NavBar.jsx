@@ -17,10 +17,13 @@ export default function NavBar() {
       </div>
       {toggle && (
         <div className="hamburger__menu__open">
+          <p style={{ color: "red" }} onClick={handleClickToggle}>
+            X
+          </p>
           <p
             onClick={() => {
               history.push("/");
-              // setToggle(!toggle);
+              setToggle(!toggle);
             }}
           >
             Home
@@ -28,7 +31,7 @@ export default function NavBar() {
           <p
             onClick={() => {
               history.push("/about");
-              // setToggle(!toggle);
+              setToggle(!toggle);
             }}
           >
             About
@@ -36,7 +39,7 @@ export default function NavBar() {
           <p
             onClick={() => {
               history.push("/engagements");
-              // setToggle(!toggle);
+              setToggle(!toggle);
             }}
           >
             Engagements
@@ -44,7 +47,7 @@ export default function NavBar() {
           <p
             onClick={() => {
               history.push("/media");
-              // setToggle(!toggle);
+              setToggle(!toggle);
             }}
           >
             Media
@@ -52,7 +55,7 @@ export default function NavBar() {
           <p
             onClick={() => {
               history.push("/gallery");
-              // setToggle(!toggle);
+              setToggle(!toggle);
             }}
           >
             Gallery
@@ -60,7 +63,7 @@ export default function NavBar() {
           <p
             onClick={() => {
               history.push("/contact");
-              // setToggle(!toggle);
+              setToggle(!toggle);
             }}
           >
             Contact
