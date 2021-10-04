@@ -17,11 +17,11 @@
 .btn {
   width: 100px;
   height: 40px;
-  cursor:pointer;
-  border:none;
+  cursor: pointer;
+  border: none;
 }
 .btn:hover {
-  opacity:70%;
+  /* opacity:70%; */
 }
 .primary {
   background-color: blue;
