@@ -17,57 +17,59 @@ export default function NavBar() {
       </div>
       {toggle && (
         <div className="hamburger__menu__open">
-          <p style={{ color: "red" }} onClick={handleClickToggle}>
+          <p className="hamaburger-menu__x" onClick={handleClickToggle}>
             X
           </p>
-          <p
-            onClick={() => {
-              history.push("/");
-              setToggle(!toggle);
-            }}
-          >
-            Home
-          </p>
-          <p
-            onClick={() => {
-              history.push("/about");
-              setToggle(!toggle);
-            }}
-          >
-            About
-          </p>
-          <p
-            onClick={() => {
-              history.push("/engagements");
-              setToggle(!toggle);
-            }}
-          >
-            Engagements
-          </p>
-          <p
-            onClick={() => {
-              history.push("/media");
-              setToggle(!toggle);
-            }}
-          >
-            Media
-          </p>
-          <p
-            onClick={() => {
-              history.push("/gallery");
-              setToggle(!toggle);
-            }}
-          >
-            Gallery
-          </p>
-          <p
-            onClick={() => {
-              history.push("/contact");
-              setToggle(!toggle);
-            }}
-          >
-            Contact
-          </p>
+          <div className="hamburger-menu__links">
+            <p
+              onClick={() => {
+                history.push("/");
+                setToggle(!toggle);
+              }}
+            >
+              Home
+            </p>
+            <p
+              onClick={() => {
+                history.push("/about");
+                setToggle(!toggle);
+              }}
+            >
+              About
+            </p>
+            <p
+              onClick={() => {
+                history.push("/engagements");
+                setToggle(!toggle);
+              }}
+            >
+              Engagements
+            </p>
+            <p
+              onClick={() => {
+                history.push("/media");
+                setToggle(!toggle);
+              }}
+            >
+              Media
+            </p>
+            <p
+              onClick={() => {
+                history.push("/gallery");
+                setToggle(!toggle);
+              }}
+            >
+              Gallery
+            </p>
+            <p
+              onClick={() => {
+                history.push("/contact");
+                setToggle(!toggle);
+              }}
+            >
+              Contact
+            </p>
+          </div>
         </div>
       )}
 

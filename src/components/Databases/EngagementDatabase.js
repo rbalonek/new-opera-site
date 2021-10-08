@@ -23,7 +23,7 @@ const Performances = [
     company: "",
     logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601215498/robertbalonek.com/Logos/NYCOpera_szn6kj.png",
     dates: "Jan 19-30 2022",
-    venue: "National Yiddish Theatre Folksbiene, NYC",
+    venue: "National Yiddish Theatre, NYC",
     modalImages: [
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601215498/robertbalonek.com/Logos/NYCOpera_szn6kj.png",
     ],
@@ -109,8 +109,8 @@ const Performances = [
     venue: "Church of the Heavenly Rest 2 E 90th St NYC",
     modalImages: [
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145907/robertbalonek.com/Logos/Canterbury_yzrqt6.png",
-      "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/76678693_2566296236741047_4838667549598023680_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=DSS4EyQjwL0AX90pkN1&_nc_ht=scontent-sjc3-1.xx&oh=429e14c0270429c51b403c4500c7045c&oe=60D66422",
-      "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/75250852_2566296153407722_197012121257508864_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=3R8PXUsTKLMAX83Q1bk&tn=FGEb_RwRLvx5qKiF&_nc_ht=scontent-sjc3-1.xx&oh=e7575e884d8687d64b2084a4293126f0&oe=60D7023D",
+      // "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/76678693_2566296236741047_4838667549598023680_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=DSS4EyQjwL0AX90pkN1&_nc_ht=scontent-sjc3-1.xx&oh=429e14c0270429c51b403c4500c7045c&oe=60D66422",
+      // "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/75250852_2566296153407722_197012121257508864_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=3R8PXUsTKLMAX83Q1bk&tn=FGEb_RwRLvx5qKiF&_nc_ht=scontent-sjc3-1.xx&oh=e7575e884d8687d64b2084a4293126f0&oe=60D7023D",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624386609/robertbalonek.com/Performances/Canterbury/Canterbury1_r61z1t.jpg",
     ],
   },
@@ -123,7 +123,7 @@ const Performances = [
     dates: "October 30 - Nov 1",
     venue: "Steven Center, Winston-Salem NC",
     modalImages: [
-      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601221292/PiedmontOpera.png",
+      // "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601221292/PiedmontOpera.png",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601221847/robertbalonek.com/BobLiveShots/2_paeohz.png",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601221847/robertbalonek.com/BobLiveShots/IMG_2642_2.JPG_aiepat.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601221847/robertbalonek.com/BobLiveShots/IMG_2598.JPG_a7qc3b.jpg",
@@ -215,7 +215,7 @@ const Performances = [
     venue: "Washington Pavilion, SD",
     modalImages: [
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624388307/robertbalonek.com/Performances/Candide/SDSOLogo_feyldv.jpg",
-      "https://youtu.be/Z1QB8nAEOBM",
+      // "https://youtu.be/Z1QB8nAEOBM",
     ],
   },
   {
@@ -297,7 +297,7 @@ const Performances = [
     venue: "NYC Fringe Festival",
     modalImages: [
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145667/robertbalonek.com/Logos/7098058_orig_lwmtyr.jpg",
-      "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.18169-9/945359_197744590372874_763476624_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=9267fe&_nc_ohc=gHPvdbuY1ucAX_vVOVR&_nc_ht=scontent-sjc3-1.xx&oh=1cb0185a3ca3074e0728c9165b341cc6&oe=60D7C958",
+      // "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.18169-9/945359_197744590372874_763476624_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=9267fe&_nc_ohc=gHPvdbuY1ucAX_vVOVR&_nc_ht=scontent-sjc3-1.xx&oh=1cb0185a3ca3074e0728c9165b341cc6&oe=60D7C958",
     ],
   },
   {

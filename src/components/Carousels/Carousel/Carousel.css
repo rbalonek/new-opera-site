@@ -24,6 +24,7 @@
 @media (max-width: 900px) {
   .carousel__image {
     height: 300px;
+    /* max-width: 300px; */
   }
   .carousel {
     max-width: 100vw;

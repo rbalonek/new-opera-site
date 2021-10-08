@@ -23,7 +23,7 @@ export default function EngagementPopup(props) {
           ))}
         </div>
       )}
-      <button className="btn success" onClick={props.handleClick}>
+      <button className="btn success modal_btn" onClick={props.handleClick}>
         Close
       </button>
     </div>

@@ -25,6 +25,7 @@ export default function ModalCarousel(props) {
               style={{
                 // height: "500px",
                 width: "auto",
+                maxWidth: "300px",
               }}
               alt={image}
               src={image}
