@@ -24,6 +24,7 @@ export default function NavBar() {
             <p
               onClick={() => {
                 history.push("/");
+                window.scroll(0, 0);
                 setToggle(!toggle);
               }}
             >
@@ -32,6 +33,7 @@ export default function NavBar() {
             <p
               onClick={() => {
                 history.push("/about");
+                window.scroll(0, 0);
                 setToggle(!toggle);
               }}
             >
@@ -40,6 +42,7 @@ export default function NavBar() {
             <p
               onClick={() => {
                 history.push("/engagements");
+                window.scroll(0, 0);
                 setToggle(!toggle);
               }}
             >
@@ -48,6 +51,7 @@ export default function NavBar() {
             <p
               onClick={() => {
                 history.push("/media");
+                window.scroll(0, 0);
                 setToggle(!toggle);
               }}
             >
@@ -56,6 +60,7 @@ export default function NavBar() {
             <p
               onClick={() => {
                 history.push("/gallery");
+                window.scroll(0, 0);
                 setToggle(!toggle);
               }}
             >
@@ -64,6 +69,7 @@ export default function NavBar() {
             <p
               onClick={() => {
                 history.push("/contact");
+                window.scroll(0, 0);
                 setToggle(!toggle);
               }}
             >
@@ -74,12 +80,54 @@ export default function NavBar() {
       )}
 
       <div className="nav__container">
-        <p onClick={() => history.push("/")}>Home</p>
-        <p onClick={() => history.push("/about")}>About</p>
-        <p onClick={() => history.push("/engagements")}>Engagements</p>
-        <p onClick={() => history.push("/media")}>Media</p>
-        <p onClick={() => history.push("/gallery")}>Gallery</p>
-        <p onClick={() => history.push("/contact")}>Contact</p>
+        <p
+          onClick={() => {
+            window.scroll(0, 0);
+            history.push("/");
+          }}
+        >
+          Home
+        </p>
+        <p
+          onClick={() => {
+            window.scroll(0, 0);
+            history.push("/about");
+          }}
+        >
+          About
+        </p>
+        <p
+          onClick={() => {
+            window.scroll(0, 0);
+            history.push("/engagements");
+          }}
+        >
+          Engagements
+        </p>
+        <p
+          onClick={() => {
+            window.scroll(0, 0);
+            history.push("/media");
+          }}
+        >
+          Media
+        </p>
+        <p
+          onClick={() => {
+            window.scroll(0, 0);
+            history.push("/gallery");
+          }}
+        >
+          Gallery
+        </p>
+        <p
+          onClick={() => {
+            window.scroll(0, 0);
+            history.push("/contact");
+          }}
+        >
+          Contact
+        </p>
       </div>
     </div>
   );

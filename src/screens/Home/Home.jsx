@@ -12,13 +12,14 @@ import Prospero from "../../components/images/homeCarouselImgs/Prospero 1 copy.j
 
 export default function Home() {
   return (
-    <div className="home__container">
+    <div id="home" className="home__container">
       <div className="home__split">
         <div className="home__carousel-holder">
           <CarouselHome
             Images={[
               "https://res.cloudinary.com/bobalobbadingdong/image/upload/c_scale,h_350,w_600/v1632606575/robertbalonek.com/HomeCarousel/1_with-text_ypvrwu.jpg",
               `${Prospero}`,
+              "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1633975744/robertbalonek.com/HomeCarousel/OwenCarousel_tefee3.jpg",
               "https://res.cloudinary.com/bobalobbadingdong/image/upload/c_scale,h_350,w_600/v1632604066/robertbalonek.com/HomeCarousel/Shaunard_Text_ogcup6.jpg",
               "https://res.cloudinary.com/bobalobbadingdong/image/upload/c_scale,h_350,w_600/v1632602754/robertbalonek.com/HomeCarousel/Figaro_text_esprfv.png",
               // "https://res.cloudinary.com/bobalobbadingdong/image/upload/c_scale,h_350,w_580/v1601307833/robertbalonek.com/HomeCarousel/2_yltoj1.png",
