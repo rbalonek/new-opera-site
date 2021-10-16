@@ -1,7 +1,9 @@
 import React from "react";
+import useGaTracker from "../../useGaTracker";
 import "./About.css";
 
 export default function About() {
+  useGaTracker();
   return (
     <div className="about__container">
       <div className="about__split">

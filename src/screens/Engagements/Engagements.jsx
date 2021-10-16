@@ -4,7 +4,7 @@ import "./Engagements.css";
 import Performances from "../../components/Databases/EngagementDatabase.js";
 import EngagementCard from "../../components/EngagementCard/EngagementCard";
 
-export default function Engagements() {
+export default function Engagements(props) {
   return (
     <div className="engagements__container">
       <h1 style={{ color: "black" }}>ENGAGEMENTS</h1>
@@ -12,6 +12,7 @@ export default function Engagements() {
         {Performances &&
           Performances.map((performance) => (
             <EngagementCard
+              Event={props.Event}
               tickets={performance.tickets}
               opera={performance.opera}
               company={performance.company}

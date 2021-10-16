@@ -9,7 +9,7 @@ import Haydn from "../../components/Audio/Haydn Creation Sample.mp3";
 import VoiceOverOne from "../../components/Audio/Reel - 5_25_20, 5.08 PM.mp3";
 import VoiceOverTwo from "../../components/Audio/60 sec reel2 2nd cut.mp3";
 
-export default function Media() {
+export default function Media(props) {
   return (
     <div className="media__container">
       <div className="audio-video__split">
@@ -17,24 +17,28 @@ export default function Media() {
           <h1>AUDIO</h1>
           <div className="audio__players__container">
             <AudioPlayer
+              Event={props.Event}
               title="Handel Saul excerpts"
               role="Saul"
               URL={Saul}
               img="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1632620849/robertbalonek.com/BobLiveShots/Ottone_jrpexs.png"
             />
             <AudioPlayer
+              Event={props.Event}
               title="Carmina Burana excerpts"
               role="Soloist"
               URL={CarminaBurana}
               img="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1632623733/robertbalonek.com/BobLiveShots/IMG_D0052F784D25-1_djgna7.jpg"
             />
             <AudioPlayer
+              Event={props.Event}
               title="La Boheme"
               role="Shaunard"
               URL={Shaunard}
               img="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601221847/robertbalonek.com/BobLiveShots/IMG_2592.JPG_pqvtap.jpg"
             />
             <AudioPlayer
+              Event={props.Event}
               title="Haydn Creation"
               role="Soloist"
               URL={Haydn}
@@ -42,12 +46,14 @@ export default function Media() {
             />
             <h1>VOICE OVER</h1>
             <AudioPlayer
+              Event={props.Event}
               title="Voice Over Reel"
               role="Voice Over"
               URL={VoiceOverOne}
               img="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145832/robertbalonek.com/Headshots/CoverPg_jfbfqm.jpg"
             />
             <AudioPlayer
+              Event={props.Event}
               title="   Voice Over Reel Two"
               role="Voice Over"
               URL={VoiceOverTwo}
@@ -58,6 +64,7 @@ export default function Media() {
         <div className="video__section">
           <h1>VIDEO</h1>
           <iframe
+            onClick={() => console.log("Clicked")}
             className="media__video"
             title="shaunard"
             width="560"

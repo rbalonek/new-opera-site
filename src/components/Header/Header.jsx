@@ -4,8 +4,8 @@ import "./Header.css";
 
 import { Fade } from "react-awesome-reveal";
 
-export default function Header() {
-  function myFunction() {
+export default function Header(props) {
+  function headerResize() {
     if (
       document.body.scrollTop >= 5 ||
       document.documentElement.scrollTop >= 5
@@ -25,7 +25,7 @@ export default function Header() {
     }
   }
   window.onscroll = function () {
-    myFunction();
+    headerResize();
   };
 
   return (
@@ -42,7 +42,7 @@ export default function Header() {
       </div>
       <div id="nav-holder" className="navBar__holder">
         <Fade triggerOnce={true} delay={2000}>
-          <NavBar />
+          <NavBar Event={props.Event} />
         </Fade>
       </div>
     </div>

@@ -1,16 +1,14 @@
 import React from "react";
-// import { Carousel } from "react-responsive-carousel";
 
-// import HomeCarousel from "../../components/Carousels/HomeCarousel/HomeCarousel";
 import CarouselHome from "../../components/Carousels/Carousel/Carousel";
 import UpcomingGigs from "../../components/UpcomingGigs/UpcomingGigs";
 import "./Home.css";
 
-// import headshot from "../../components/images/homeCarouselImgs/1_with-text.jpg";
 import Prospero from "../../components/images/homeCarouselImgs/Prospero 1 copy.jpg";
-// import Shaunard from "../../components/images/homeCarouselImgs/Shaunard_Text.jpg";
+import useGaTracker from "../../useGaTracker";
 
-export default function Home() {
+export default function Home(props) {
+  useGaTracker();
   return (
     <div id="home" className="home__container">
       <div className="home__split">
@@ -28,7 +26,7 @@ export default function Home() {
           />
         </div>
         <div className="home__upcoming-gigs">
-          <UpcomingGigs />
+          <UpcomingGigs Event={props.Event} />
         </div>
       </div>
     </div>

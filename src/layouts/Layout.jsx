@@ -5,11 +5,11 @@ import Header from "../components/Header/Header";
 export default function Layout(props) {
   return (
     <div>
-      <Header />
+      <Header Event={props.Event} />
 
       <main>{props.children}</main>
 
-      <Footer />
+      <Footer Event={props.Event} />
     </div>
   );
 }

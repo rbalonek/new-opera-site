@@ -8,31 +8,31 @@ import Media from "../screens/Media/Media";
 import Gallery from "../screens/Gallery/Gallery";
 import Contact from "../screens/Contact/Contact";
 
-export default function MainContainer() {
+export default function MainContainer(props) {
   return (
     <Switch>
       <Route path="/about">
-        <About />
+        <About Event={props.Event} />
       </Route>
 
       <Route path="/engagements">
-        <Engagements />
+        <Engagements Event={props.Event} />
       </Route>
 
       <Route path="/media">
-        <Media />
+        <Media Event={props.Event} />
       </Route>
 
       <Route path="/gallery">
-        <Gallery />
+        <Gallery Event={props.Event} />
       </Route>
 
       <Route path="/contact">
-        <Contact />
+        <Contact Event={props.Event} />
       </Route>
 
       <Route path="/">
-        <Home />
+        <Home Event={props.Event} />
       </Route>
     </Switch>
   );

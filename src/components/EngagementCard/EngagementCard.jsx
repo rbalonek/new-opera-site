@@ -8,6 +8,12 @@ export default function EngagementCard(props) {
   const [modalIsOpen, setIsOpen] = useState(false);
 
   function openModal() {
+    props.Event(
+      `${props.opera} ${props.company} click`,
+      "Mire Info Clicked",
+      "ENGAGEMENT_SECTION"
+    );
+
     setIsOpen(true);
     var x = window.scrollX;
     var y = window.scrollY;
@@ -29,7 +35,18 @@ export default function EngagementCard(props) {
       <p className="enagement-card__dates">{props.dates}</p>
       <p className="enagement-card__venue">{props.venue}</p>
       {props.tickets === "true" ? (
-        <a href={props.ticketLink} target="_blank" rel="noopener noreferrer">
+        <a
+          onClick={() =>
+            props.Event(
+              `${props.opera} click`,
+              "Tickets Clicked",
+              "ENGAGEMENT_SECTION"
+            )
+          }
+          href={props.ticketLink}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className="btn primary">Tickets</button>
         </a>
       ) : (
