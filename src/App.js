@@ -11,7 +11,7 @@ import {
 } from "./Tracking";
 
 function App() {
-  initGA("UA-210312980-2");
+  initGA(process.env.REACT_APP_THING);
   // PageView();
   return (
     <Layout Event={Event}>
