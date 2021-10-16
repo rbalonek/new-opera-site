@@ -5,7 +5,9 @@ export const initGA = (trackingID) => {
 };
 
 export const PageView = () => {
-  ReactGA.pageview(window.location.pathname + window.location.search);
+  if (!window.location.href.includes("localhost")) {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }
 };
 
 export const Event = (category, action, label) => {

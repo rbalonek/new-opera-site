@@ -23,7 +23,7 @@ export default function CarouselHome(props) {
     >
       {props.Images &&
         props.Images.map((image, index) => (
-          <div>
+          <div key={index + image}>
             <img
               id={index + 1 + "the"}
               key={index}
