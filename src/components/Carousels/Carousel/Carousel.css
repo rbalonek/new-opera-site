@@ -37,3 +37,12 @@
     height: 170px;
   }
 } */
+@media (max-width: 500px) {
+  .carousel {
+    height: 200px;
+    width: 100%;
+  }
+  .carousel__image {
+    height: 200px;
+  }
+}
