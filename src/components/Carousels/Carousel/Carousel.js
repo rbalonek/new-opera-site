@@ -19,6 +19,7 @@ export default function CarouselHome(props) {
       infiniteLoop
       showThumbs={false}
       autoPlay
+      showIndicators={false}
       // showArrows={true}
     >
       {props.Images &&
@@ -28,10 +29,12 @@ export default function CarouselHome(props) {
               id={index + 1 + "the"}
               key={index}
               className="carousel__image"
-              style={{
-                // height: "500px",
-                width: "auto",
-              }}
+              style={
+                {
+                  // height: "500px",
+                  // width: "auto",
+                }
+              }
               alt={image}
               src={image}
             />
