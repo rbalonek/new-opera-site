@@ -1,7 +1,7 @@
 import React from "react";
 import "./Gallery.css";
 
-import CarouselGallery from "../../components/Carousels/Carousel/Carousel.js";
+import CarouselGallery from "../../components/Carousels/GalleryCarousel/GalleryCarousel";
 
 export default function Gallery() {
   return (
