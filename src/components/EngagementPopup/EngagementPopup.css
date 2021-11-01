@@ -38,7 +38,7 @@
     bottom: 25px;
   }
   .engagement-popup__carousel {
-    width: auto;
+    width: 100%;
   }
 }
 @media (max-width: 350px) {
@@ -53,6 +53,6 @@
     bottom: 25px;
   }
   .engagement-popup__carousel {
-    width: auto;
+    width: 100%;
   }
 }
