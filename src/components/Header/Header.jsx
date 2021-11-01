@@ -1,10 +1,12 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar";
 import "./Header.css";
+import { useHistory } from "react-router";
 
 import { Fade } from "react-awesome-reveal";
 
 export default function Header(props) {
+  const history = useHistory();
   function headerResize() {
     if (
       document.body.scrollTop >= 5 ||
@@ -30,7 +32,13 @@ export default function Header(props) {
 
   return (
     <div id="header__container" className="header__container">
-      <div className="header__logo__container">
+      <div
+        onClick={() => {
+          history.push("/");
+          window.scroll(0, 0);
+        }}
+        className="header__logo__container"
+      >
         <Fade triggerOnce={true} duration={3000} direction={"left"}>
           <h1 id="name" className="header__logo-title">
             Robert Balonek

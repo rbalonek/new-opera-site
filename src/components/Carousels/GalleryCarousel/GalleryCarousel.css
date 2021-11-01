@@ -1,0 +1,4 @@
+.carousel-gallery__image {
+  height: 200px;
+  object-fit: contain;
+}
