@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Contact.css";
+import ReactPixel from "react-facebook-pixel";
 
 export default function Contact(props) {
+  useEffect(() => {
+    ReactPixel.track("ViewContent", "data");
+  }, []);
   return (
     <div className="contact__container">
       <div className="contact__split">
@@ -73,9 +77,9 @@ export default function Contact(props) {
             <p>robertbalonek@gmail.com</p>
           </a>
           <a
-            onClick={() =>
-              props.Event("Bob Phone", "Clicked", "CONTACT_SECTION")
-            }
+            onClick={() => {
+              props.Event("Bob Phone", "Clicked", "CONTACT_SECTION");
+            }}
             style={{ color: "white", textDecoration: "none" }}
             href="tel:5857212210"
           >

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import CarouselHome from "../../components/Carousels/Carousel/Carousel";
 import UpcomingGigs from "../../components/UpcomingGigs/UpcomingGigs";

@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AudioPlayer from "../../components/AudioPlayer/AudioPlayer";
 import "./Media.css";
+import ReactPixel from "react-facebook-pixel";
 
 import Saul from "../../components/Audio/Saul Sampler Shorter copy.mp3";
 import CarminaBurana from "../../components/Audio/Carmina Burana Sampler.mp3";
@@ -10,6 +11,9 @@ import VoiceOverOne from "../../components/Audio/Reel - 5_25_20, 5.08 PM.mp3";
 import VoiceOverTwo from "../../components/Audio/60 sec reel2 2nd cut.mp3";
 
 export default function Media(props) {
+  useEffect(() => {
+    ReactPixel.track("ViewContent", "data");
+  }, []);
   return (
     <div className="media__container">
       <div className="audio-video__split">

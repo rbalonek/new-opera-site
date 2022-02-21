@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Gallery.css";
+import ReactPixel from "react-facebook-pixel";
 
 import CarouselGallery from "../../components/Carousels/GalleryCarousel/GalleryCarousel";
 
 export default function Gallery() {
+  useEffect(() => {
+    ReactPixel.track("ViewContent", "data");
+  }, []);
   return (
     <div className="gallery__container">
       <h1>Live Photos</h1>

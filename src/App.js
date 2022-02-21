@@ -11,7 +11,6 @@ import {
 } from "./Tracking";
 
 import ReactPixel from "react-facebook-pixel";
-
 // const advancedMatching = { em: 'some@email.com' }; // optional, more info: https://developers.facebook.com/docs/facebook-pixel/advanced/advanced-matching
 const options = {
   autoConfig: true, // set pixel's autoConfig. More info: https://developers.facebook.com/docs/facebook-pixel/advanced/
@@ -37,7 +36,6 @@ function App() {
   // PageView();
   useEffect(() => {
     ReactPixel.pageView();
-    ReactPixel.track("ViewContent", "data");
   }, []);
 
   return (
