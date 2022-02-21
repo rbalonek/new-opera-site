@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Switch, Route } from "react-router-dom";
 import "./App.css";
 import MainContainer from "./containers/MainContainer";
@@ -35,6 +35,11 @@ function App() {
   initGA(process.env.REACT_APP_THING);
   ReactPixel.pageView();
   // PageView();
+  useEffect(() => {
+    ReactPixel.pageView();
+    ReactPixel.track("ViewContent", "data");
+  }, []);
+
   return (
     <Layout Event={Event}>
       <Switch>
