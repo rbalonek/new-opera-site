@@ -67,6 +67,38 @@ export default function Media(props) {
         </div>
         <div className="video__section">
           <h1>VIDEO</h1>
+
+          <iframe
+          className="media__video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/qVYLPdaeP8c"
+            title="Figaro Sampler"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen />
+          
+            <iframe
+            className="media__video"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/nPHHkh9TjHk"
+              title="Pari Siamo"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen />
+          
+              <iframe
+              className="media__video"
+              title="Cortigiani"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/TW-8fsal8Rk"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            />
+         
           <iframe
             onClick={() => console.log("Clicked")}
             className="media__video"
@@ -78,16 +110,7 @@ export default function Media(props) {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           />
-          <iframe
-            className="media__video"
-            title="Largo"
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/0c67QhA8B6o"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          />
+          
           <iframe
             className="media__video"
             title="shaunard"
