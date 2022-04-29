@@ -1,4 +1,5 @@
 const Performances = [
+ 
   {
     tickets: "true",
     ticketLink: "https://tickets.galloarts.org/8566", //"https://www.operamodesto.org/concerts/",
@@ -33,7 +34,27 @@ const Performances = [
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1651194975/robertbalonek.com/Performances/Rigoletto%202022/bo_220315-031_jzagwa.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1651194977/robertbalonek.com/Performances/Rigoletto%202022/bo_220315-025_r1bzyq.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1651194980/robertbalonek.com/Performances/Rigoletto%202022/IMG_4226_fz6tix.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1651200505/robertbalonek.com/Performances/Rigoletto%202022/prpv_sy58q3.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1651200504/robertbalonek.com/Performances/Rigoletto%202022/prpv_54_tkg2mz.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1651200499/robertbalonek.com/Performances/Rigoletto%202022/prpv_46_frgzkk.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1651200494/robertbalonek.com/Performances/Rigoletto%202022/prpv_39_ylt7h0.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1651200493/robertbalonek.com/Performances/Rigoletto%202022/prpv_32_n6greb.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1651200489/robertbalonek.com/Performances/Rigoletto%202022/prpv_36_xi3rqs.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1651200476/robertbalonek.com/Performances/Rigoletto%202022/prpv_9_wnoxig.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1651200485/robertbalonek.com/Performances/Rigoletto%202022/prpv_34_aswopy.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1651200486/robertbalonek.com/Performances/Rigoletto%202022/prpv_27_pvmnhl.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1651200482/robertbalonek.com/Performances/Rigoletto%202022/prpv_20_vf7yto.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1651200505/robertbalonek.com/Performances/Rigoletto%202022/prpv_56_akklum.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1651200469/robertbalonek.com/Performances/Rigoletto%202022/prpv_5_e70bxa.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1651195038/robertbalonek.com/Performances/Rigoletto%202022/Rig_Cutout_ohbkba.png",
+    ],
+    reviews: [
+      {
+        Quote:
+          "Balonek was able to scurry through crowd scenes with elastic physicality as well as express parental tenderness toward his daughter Gilda. He was alternately sprightly,animated, and conniving, with a solid voice carrying well into the house. Balonek showed particularly sensitive dynamics in an Act I soliloquy, while both scheming with the professional assassin Sparafucile and offering protective advice to Gilda.",
+        From: "Nancy Plum, Town Topics",
+      },
+      
     ],
   },
   {
@@ -42,7 +63,7 @@ const Performances = [
     role: "Ernesto",
     opera: "The garden of the Finzi-Continis",
     composer: "Ricky Ian Gordon",
-    // company: "NYC Opera",
+    company: "NYC Opera",
     logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601215498/robertbalonek.com/Logos/NYCOpera_szn6kj.png",
     dates: "Jan 19-30 2022",
     venue: "National Yiddish Theatre, NYC",
@@ -83,9 +104,9 @@ const Performances = [
     dates: "May 20 2019",
     venue: "Bryant Park NYC",
     modalImages: [
-      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601215498/robertbalonek.com/Logos/NYCOpera_szn6kj.png",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624386343/robertbalonek.com/Performances/NYCO%20Boheme%202019/NYCO_Shaunard_ug67s5.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624386492/robertbalonek.com/Performances/NYCO%20Boheme%202019/BohemeNYCO_fvypmj.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601215498/robertbalonek.com/Logos/NYCOpera_szn6kj.png",
     ],
   },
   {
@@ -97,12 +118,12 @@ const Performances = [
     dates: "May 9 - May 12 2019",
     venue: "GK Arts Center Brooklyn NY",
     modalImages: [
-      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145668/robertbalonek.com/Logos/Lil_Opera_irzsbz.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624384073/robertbalonek.com/Performances/Owen%20Wingrave%20LOTNY/Owen2_xnwmh5.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624384075/robertbalonek.com/Performances/Owen%20Wingrave%20LOTNY/Owen3_g1mv25.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145669/robertbalonek.com/Logos/OwenWingrave_hncpvc.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624384164/robertbalonek.com/Performances/Owen%20Wingrave%20LOTNY/Screen_Shot_2021-06-22_at_10.48.30_AM_fnjrpm.png",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624384075/robertbalonek.com/Performances/Owen%20Wingrave%20LOTNY/Owen1_nwcyoq.jpg",
-      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624384075/robertbalonek.com/Performances/Owen%20Wingrave%20LOTNY/Owen3_g1mv25.jpg",
-      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624384073/robertbalonek.com/Performances/Owen%20Wingrave%20LOTNY/Owen2_xnwmh5.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145668/robertbalonek.com/Logos/Lil_Opera_irzsbz.jpg",
     ],
     reviews: [
       {
@@ -121,15 +142,15 @@ const Performances = [
     role: "Bass Soloist",
     opera: "Christmas Oratorio",
     composer: "Bach",
-    company: "",
+    company: "Canterbury Choral Society",
     logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145907/robertbalonek.com/Logos/Canterbury_yzrqt6.png",
     dates: "November 24 2019",
     venue: "Church of the Heavenly Rest 2 E 90th St NYC",
     modalImages: [
-      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145907/robertbalonek.com/Logos/Canterbury_yzrqt6.png",
       // "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/76678693_2566296236741047_4838667549598023680_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=DSS4EyQjwL0AX90pkN1&_nc_ht=scontent-sjc3-1.xx&oh=429e14c0270429c51b403c4500c7045c&oe=60D66422",
       // "https://scontent-sjc3-1.xx.fbcdn.net/v/t1.6435-9/75250852_2566296153407722_197012121257508864_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=3R8PXUsTKLMAX83Q1bk&tn=FGEb_RwRLvx5qKiF&_nc_ht=scontent-sjc3-1.xx&oh=e7575e884d8687d64b2084a4293126f0&oe=60D7023D",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624386609/robertbalonek.com/Performances/Canterbury/Canterbury1_r61z1t.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145907/robertbalonek.com/Logos/Canterbury_yzrqt6.png",
     ],
   },
   {
@@ -172,27 +193,27 @@ const Performances = [
     dates: "September 28 2019",
     venue: "Gerald Lynch Theater NYC",
     modalImages: [
-      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624387073/robertbalonek.com/Performances/Gianni%20Schicchi%20Purchase/PAC_Logo_dtnqtu.png",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624386914/robertbalonek.com/Performances/Gianni%20Schicchi%20Purchase/Schicchi1_tq8e6z.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624386913/robertbalonek.com/Performances/Gianni%20Schicchi%20Purchase/Schicchi2_msjmkp.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624387073/robertbalonek.com/Performances/Gianni%20Schicchi%20Purchase/PAC_Logo_dtnqtu.png",
     ],
   },
   {
     role: "Figaro",
     opera: "Barber of Seville",
     composer: "Rossini",
-    company: "",
+    company: "Boston Midsummer Opera",
     logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624387480/robertbalonek.com/Performances/Boston%20Midsummer%20Barber/BMO_Logo_ailrn2.jpg",
     dates: "July 25-29 2018",
     venue: "Mosesian Center for the Arts, Watertown, MA",
     modalImages: [
-      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624387334/robertbalonek.com/Performances/Boston%20Midsummer%20Barber/BarberPoster_vwrvld.webp",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624387370/robertbalonek.com/Performances/Boston%20Midsummer%20Barber/a2b5bb_9d050b2d5ef346b0b97f2d5ed405f943_mv2_d_3835_1573_s_2_llai29.webp",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624387366/robertbalonek.com/Performances/Boston%20Midsummer%20Barber/a2b5bb_3e6330c310d54688b81892e9bc4b0b16_mv2_d_2848_4288_s_4_2_myyvb1.webp",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624387363/robertbalonek.com/Performances/Boston%20Midsummer%20Barber/a2b5bb_3a2951cf560349f78f6dbcda525da288_mv2_d_2848_4288_s_4_2_dyfglz.webp",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624386716/robertbalonek.com/Performances/Boston%20Midsummer%20Barber/Barber3_ufcc2h.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624386716/robertbalonek.com/Performances/Boston%20Midsummer%20Barber/Barber2_tc8fsu.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624386716/robertbalonek.com/Performances/Boston%20Midsummer%20Barber/Barber1_utuzqr.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624387334/robertbalonek.com/Performances/Boston%20Midsummer%20Barber/BarberPoster_vwrvld.webp",
     ],
     reviews: [
       {
@@ -216,11 +237,11 @@ const Performances = [
     dates: "April 21-22 2018",
     venue: "Washington Pavilion, SD",
     modalImages: [
-      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624388307/robertbalonek.com/Performances/Candide/SDSOLogo_feyldv.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624388212/robertbalonek.com/Performances/Candide/Pavillion_vvetyh.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624388133/robertbalonek.com/Performances/Candide/Max1_um6cxv.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624388131/robertbalonek.com/Performances/Candide/CandideCast_nfxaty.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624388130/robertbalonek.com/Performances/Candide/Captain_t65nhe.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624388307/robertbalonek.com/Performances/Candide/SDSOLogo_feyldv.jpg",
     ],
   },
   {
@@ -258,12 +279,12 @@ const Performances = [
     dates: "Oct 1-5, 2014",
     venue: "The Kate in Old Saybrook, CT",
     modalImages: [
-      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145670/robertbalonek.com/Logos/Salt_Marsh_wdwg0q.png",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624389950/robertbalonek.com/Performances/Salt%20Marsh%20Figaro/The_Kate_in_Old_Saybrook_CT_bwt7nu.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624390106/robertbalonek.com/Performances/Salt%20Marsh%20Figaro/Count2_yllftj.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624390106/robertbalonek.com/Performances/Salt%20Marsh%20Figaro/Count4_w7dagt.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624390106/robertbalonek.com/Performances/Salt%20Marsh%20Figaro/Count1_igqft3.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624390106/robertbalonek.com/Performances/Salt%20Marsh%20Figaro/Count3_yhfgyt.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145670/robertbalonek.com/Logos/Salt_Marsh_wdwg0q.png",
     ],
   },
   {
@@ -275,9 +296,9 @@ const Performances = [
     dates: "Feb 18-27, 2015",
     venue: "106 East 86th Street NYC",
     modalImages: [
-      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624390616/robertbalonek.com/Performances/Opera%20CoOp%20cosi/CoOp_Logo_vb9gs9.png",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624390616/robertbalonek.com/Performances/Opera%20CoOp%20cosi/OperaCoop_y5arkr.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624390616/robertbalonek.com/Performances/Opera%20CoOp%20cosi/Coop2_twxh2q.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624390616/robertbalonek.com/Performances/Opera%20CoOp%20cosi/CoOp_Logo_vb9gs9.png",
     ],
   },
   {
@@ -301,8 +322,8 @@ const Performances = [
     dates: "July 15, 2014",
     venue: "NYC",
     modalImages: [
-      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145670/robertbalonek.com/Logos/VHRP_fajuvy.png",
       "https://vhrplive.org/wp-content/uploads/2014/02/victor-herberts-natoma-the-politics-of-american-grand-opera.png",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145670/robertbalonek.com/Logos/VHRP_fajuvy.png",
     ],
   },
   {
@@ -327,9 +348,9 @@ const Performances = [
     dates: "June 28, 2014",
     venue: " Lang Recital Hall NYC",
     modalImages: [
-      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624391490/robertbalonek.com/Logos/Screen_Shot_2021-06-22_at_12.50.04_PM_zfnkea.png",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145742/robertbalonek.com/BobLiveShots/IMG_7980_copy.JPG_bxtgpy.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145741/robertbalonek.com/BobLiveShots/IMG_7955.JPG_c8m0ib.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624391490/robertbalonek.com/Logos/Screen_Shot_2021-06-22_at_12.50.04_PM_zfnkea.png",
     ],
   },
   {
@@ -341,9 +362,9 @@ const Performances = [
     dates: "production cancelled",
     venue: "Dofasco Centre for the Arts ON",
     modalImages: [
-      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145668/robertbalonek.com/Logos/Opera_Hamilton_lv2w3x.jpg",
       "http://operahamilton.ca/imgs/exterior.jpg",
       "http://operahamilton.ca/imgs/dofasco.gif",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145668/robertbalonek.com/Logos/Opera_Hamilton_lv2w3x.jpg",
     ],
   },
   {
@@ -355,10 +376,10 @@ const Performances = [
     dates: "March 21, 2014",
     venue: "Alice Tully Hall NYC",
     modalImages: [
-      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145667/robertbalonek.com/Logos/ACO_ddy0do.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145742/robertbalonek.com/BobLiveShots/Charon_hy59yl.png",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624391888/robertbalonek.com/Performances/Alceste%20ACO/Alceste_aewsbg.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624391888/robertbalonek.com/Performances/Alceste%20ACO/Alceste2_yr88es.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145667/robertbalonek.com/Logos/ACO_ddy0do.jpg",
     ],
     reviews: [
       {

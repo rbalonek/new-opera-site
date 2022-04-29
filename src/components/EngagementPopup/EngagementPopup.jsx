@@ -4,12 +4,14 @@ import "./EngagementPopup.css";
 import Carousel from "../../components/Carousels/Carousel/ModalCarousel/ModalCarousel";
 
 export default function EngagementPopup(props) {
-  console.log("reviews", props.reviews);
+  // console.log("reviews", props.reviews);
 
   return (
     <div className="engagement-popup__container">
-      <h1>{props.role}</h1>
-      <h3>{props.opera}</h3>
+      <div>
+      <h1 className="engagement-popup__role">{props.role}</h1>
+      <h3 className="engagement-popup__opera">{props.opera}</h3>
+      </div>
       <div className="engagement-popup__carousel">
         <Carousel className="engagement-popup_" Images={props.modalImages} />
       </div>

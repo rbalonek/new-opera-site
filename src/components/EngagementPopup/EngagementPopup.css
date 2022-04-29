@@ -1,8 +1,8 @@
 .engagement-popup__container {
   background-color: black;
   color: white;
-  height: 600px;
-  width: 800px;
+  height: 700px;
+  width: 900px;
   position: relative;
   top: 7vh;
   text-align: center;
@@ -12,8 +12,11 @@
   align-items: center;
   text-align: -webkit-center;
 }
+.engagement-popup__opera{
+  font-style: italic;
+}
 .engagement-popup__carousel {
-  height: 200px;
+  /* height: 200px; */
   width: 100%;
 }
 .review-section {
@@ -29,7 +32,7 @@
   margin-top: 0px;
   font-size: 8px;
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .engagement-popup__container {
     width: 95vw;
   }
@@ -41,10 +44,10 @@
     width: 100%;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 400px) {
   .engagement-popup__container {
     width: 95vw;
-    max-height: 90vh;
+    height: 99vh;
     position: relative;
     top: 50px;
   }

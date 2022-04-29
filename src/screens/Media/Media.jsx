@@ -100,7 +100,7 @@ export default function Media(props) {
             />
          
           <iframe
-            onClick={() => console.log("Clicked")}
+            // onClick={() => console.log("Clicked")}
             className="media__video"
             title="shaunard"
             width="560"

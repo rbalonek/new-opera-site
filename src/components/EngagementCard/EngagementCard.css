@@ -3,20 +3,28 @@
   background-color: black;
   color: white;
   height: 450px;
-  width: 300px;
+  width: 400px;
   margin: 10px;
   text-align: center;
-  box-shadow: 0 0px 14px 0 gray;
+  box-shadow: 0 0px 24px 0 black;
   border-radius: 5%;
+}
+.engagement-card__container:hover {
+ 
+  box-shadow: 0 0px 24px 0 black;
+  
 }
 .enagement-card__opera {
   font-size: 20px;
+  font-style: italic;
 }
 .enagement-card__composer {
+  font-size: smaller;
 }
 .enagement-card__logo {
   height: 100px;
   max-width: 290px;
+  border-radius: 5%;
 }
 .enagement-card__dates {
 }
@@ -26,4 +34,18 @@
   display: flex;
   width: 100%;
   justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.enagement-card__role{
+ 
+}
+
+@media (max-height: 720px){
+  .engagement__popup__holder {
+    height: 90vh;
+  }
+  .engagement-popup__container{
+    height: 90vh;
+  }
 }

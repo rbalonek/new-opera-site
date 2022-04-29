@@ -52,7 +52,7 @@ export default function EngagementCard(props) {
       ) : (
         <>
           <button onClick={openModal} className="btn secondary">
-            More Info
+          Info | Images
           </button>
         </>
       )}
