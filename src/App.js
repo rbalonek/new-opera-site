@@ -1,14 +1,13 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Switch, Route } from "react-router-dom";
 import "./App.css";
 import MainContainer from "./containers/MainContainer";
 import Layout from "./layouts/Layout";
 
-import {
-  initGA,
-  // PageView,
-  Event,
-} from "./Tracking";
+// import {
+//   initGA,
+//   Event,
+// } from "./Tracking";
 
 import ReactPixel from "react-facebook-pixel";
 // const advancedMatching = { em: 'some@email.com' }; // optional, more info: https://developers.facebook.com/docs/facebook-pixel/advanced/advanced-matching
@@ -31,12 +30,12 @@ ReactPixel.init(
 function App() {
   // console.log("META", process.env.REACT_APP_META_CODE);
   // console.log("GOOGLE", process.env.REACT_APP_THING);
-  initGA(process.env.REACT_APP_THING);
-  ReactPixel.pageView();
-  // PageView();
-  useEffect(() => {
-    ReactPixel.pageView();
-  }, []);
+  // initGA(process.env.REACT_APP_THING);
+  // ReactPixel.pageView();
+  // // PageView();
+  // useEffect(() => {
+  //   ReactPixel.pageView();
+  // }, []);
 
   return (
     <Layout Event={Event}>

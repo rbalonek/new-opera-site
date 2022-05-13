@@ -1,14 +1,14 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 import CarouselHome from "../../components/Carousels/Carousel/Carousel";
 import UpcomingGigs from "../../components/UpcomingGigs/UpcomingGigs";
 import "./Home.css";
 
 // import Prospero from "../../components/images/homeCarouselImgs/Prospero 1 copy.jpg";
-import useGaTracker from "../../useGaTracker";
+// import useGaTracker from "../../useGaTracker";
 
 export default function Home(props) {
-  useGaTracker();
+  // useGaTracker();
   return (
     <div id="home" className="home__container">
       <div className="home__split">
