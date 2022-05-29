@@ -1,9 +1,17 @@
+import Saul from "../../components/Audio/Saul Sampler Shorter copy.mp3"
+import CarminaBurana from "../../components/Audio/Carmina Burana Sampler.mp3";
+import Shaunard from "../../components/Audio/Shaunard.mp3";
+import Haydn from "../../components/Audio/Haydn Creation Sample.mp3";
+import VoiceOverOne from "../../components/Audio/Reel - 5_25_20, 5.08 PM.mp3";
+import VoiceOverTwo from "../../components/Audio/60 sec reel2 2nd cut.mp3";
 
 const AudioPlayList = [
   {
   title: "Handel Saul excerpts",
-  role: "Saul",
-  URL: "/static/media/Saul Sampler Shorter copy.8ed67463.mp3",
+    role: "Saul",
+    // URL: { Saul },
+    URL: "/static/media/Saul Sampler Shorter copy.8ed67463.mp3",
+  // URL: "/static/media/Saul Sampler Shorter copy.8ed67463.mp3",
   img: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1632620849/robertbalonek.com/BobLiveShots/Ottone_jrpexs.png",
   },
   {

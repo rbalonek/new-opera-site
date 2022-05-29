@@ -1,5 +1,7 @@
 .audio-player__container{
   text-align: -webkit-center;
+  position: fixed;
+  bottom: 20%;
 }
 .audio-player__holder{
   width: 800px;
@@ -11,7 +13,7 @@
   align-items: center;
   box-shadow: 2px 5px 3px 0 black;
   display: flex;
-    flex-direction: row;
+  flex-direction: row;
 }
 
 .audio-player__description__holder{
@@ -61,6 +63,10 @@
     justify-content: center;
     align-items: center;
     border-radius: 5%;
+  }
+  .audio-player__container{
+    bottom: 0;
+    left: 10%;
   }
   .audio-player{
     width: 300px;

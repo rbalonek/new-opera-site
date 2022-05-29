@@ -18,7 +18,7 @@ export default function Media(props) {
             title="Figaro Sampler"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen />
+            allowFullScreen />
           
             <iframe
             className="media__video"
@@ -59,7 +59,7 @@ export default function Media(props) {
             width="560"
             height="315"
             src="https://www.youtube.com/embed/Z1QB8nAEOBM"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />
