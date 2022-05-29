@@ -1,14 +1,7 @@
 import React from "react";
-// import useGaTracker from "../../useGaTracker";
 import "./About.css";
-// import ReactPixel from "react-facebook-pixel";
 
 export default function About() {
-  // useGaTracker();
-
-  // useEffect(() => {
-  //   ReactPixel.track("ViewContent", "data");
-  // }, []);
   return (
     <div className="about__container">
       <div className="about__split">

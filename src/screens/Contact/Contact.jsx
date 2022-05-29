@@ -1,11 +1,9 @@
 import React from "react";
 import "./Contact.css";
-// import ReactPixel from "react-facebook-pixel";
+
 
 export default function Contact(props) {
-  // useEffect(() => {
-    // ReactPixel.track("ViewContent", "data");
-  // }, []);
+ 
   return (
     <div className="contact__container">
       <div className="contact__split">
