@@ -1,29 +1,21 @@
 import React from "react";
 import "./UpcomingGigs.css";
 
-export default function UpcomingGigs(props) {
+export default function UpcomingGigs() {
   const goToBarber = () => {
-    props.Event("Home-Upcoming Click", "Barber OOTJ Clicked", "HOME_SECTION");
+   
     window.open("https://www.operaonthejames.org/shows");
   };
   const goToRig = () => {
-    props.Event(
-      "Home-Upcoming Click",
-      "Rigoletto BONJ Clicked",
-      "HOME_SECTION"
-    );
+   
     window.open("https://www.bohemeopera.org/main-stage");
   };
   const goToMarcello = () => {
-    props.Event(
-      "Home-Upcoming Click",
-      "Marcello Modesto Clicked",
-      "HOME_SECTION"
-    );
+   
     window.open("https://www.operamodesto.org/");
   };
   const goToErnesto = () => {
-    props.Event("Home-Upcoming Click", "Ernesto NYCO Clicked", "HOME_SECTION");
+   
     window.open("https://nycopera.com/shows/finzi/");
   };
 

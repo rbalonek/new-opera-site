@@ -7,13 +7,11 @@ export default function AudioPlayerComp(props) {
   const [trackNum, setTrackNum] = useState(0)
   let thePlaylist= []
 
-  const getAllTracks = () => {
-    props.songs.map((song) => {
-      thePlaylist.push(song.fields)
-    })
-  }
 
-  { props.songs && getAllTracks() }
+
+  { props.songs && props.songs.map((song) => {
+    thePlaylist.push(song)
+  }) }
   
   const handleClickNext = () => {
     if (trackNum < thePlaylist.length-1) {
@@ -30,7 +28,6 @@ export default function AudioPlayerComp(props) {
     }
   }
   const handleClickSong = ( songNum) => {
-    
     setTrackNum(songNum)
   }
   return (
@@ -41,16 +38,15 @@ export default function AudioPlayerComp(props) {
           <div className='audio-player__holder'>
             <div className='audio-player__description__holder'>
             <div className='audio-player__description'>
-            <p>{thePlaylist[trackNum].Name}</p>
-                <p>{thePlaylist[trackNum].Description}</p>
-                <p>{thePlaylist[trackNum].Composer}</p>
-            <p>{thePlaylist[trackNum].Accompanist}</p>
+            <p>{thePlaylist[trackNum].title}</p>
+                <p>{thePlaylist[trackNum].role}</p>
+                <img style={{height:"50px"}} src={thePlaylist[trackNum].img} alt={thePlaylist[trackNum].title} />
             </div>
             <AudioPlayer
             className='audio-player'
             showSkipControls={true}
             autoPlay={false}
-            src={thePlaylist[trackNum].Attachments[0].url}
+            src={thePlaylist[trackNum].URL}
             onClickNext={handleClickNext}
             onClickPrevious={handleClickPrev}
             />
@@ -59,7 +55,7 @@ export default function AudioPlayerComp(props) {
             <div className='song-list'>
               {thePlaylist.map((song, index) => (
                 <div className='song-list__conatiner' key={index+"song-list__conatiner"}>
-                  <p onClick={(e) => { e.preventDefault(); handleClickSong(index) }} className='song-list__song' key={index + "song"}>{song.Name} : {song.Composer}</p>
+                  <p onClick={(e) => { e.preventDefault(); handleClickSong(index) }} className='song-list__song' key={index + "song"}>{song.title} : {song.role}</p>
                 </div>
               ))}
             </div>

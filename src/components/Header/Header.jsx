@@ -50,7 +50,7 @@ export default function Header(props) {
       </div>
       <div id="nav-holder" className="navBar__holder">
         <Fade triggerOnce={true} delay={2000}>
-          <NavBar Event={props.Event} />
+          <NavBar />
         </Fade>
       </div>
     </div>

@@ -1,9 +1,10 @@
 import React from "react";
 import CarouselHome from "../../../components/Carousels/Carousel/Carousel";
 import UpcomingGigs from "../../../components/UpcomingGigs/UpcomingGigs";
+
 import "./NewHome.css";
 
-export default function NewHome(props) {
+export default function NewHome() {
 
   return (
     <div className="newHome__conainer">
@@ -15,7 +16,8 @@ export default function NewHome(props) {
           "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1635467337/robertbalonek.com/HomeCarousel/figaroShorterBanner_m3ld7s.png",
         ]}
       />
-      <UpcomingGigs Event={props.Event} />
+      
+      <UpcomingGigs />
     </div>
   );
 }

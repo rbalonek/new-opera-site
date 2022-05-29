@@ -17,13 +17,7 @@ export default function AudioPlayer(props) {
           />
           <div className="audio-player__controls">
             <ReactAudioPlayer
-              onPlay={() =>
-                props.Event(
-                  `${props.title} Play`,
-                  "Player Clicked",
-                  "MEDIA_SECTION"
-                )
-              }
+             
               className="player"
               src={props.URL}
               controls
@@ -34,11 +28,3 @@ export default function AudioPlayer(props) {
     </div>
   );
 }
-
-// onClick={() =>
-// props.Event(
-//   `${props.opera} click`,
-//   "Tickets Clicked",
-//   "ENGAGEMENT_SECTION"
-// )
-// }

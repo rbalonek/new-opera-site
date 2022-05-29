@@ -14,26 +14,12 @@ export default function Contact(props) {
           <h4>New York, NY 10036</h4>
           <br />
           <a
-            onClick={() =>
-              props.Event(
-                "Randsman Phone",
-                "Office Phone Called",
-                "CONTACT_SECTION"
-              )
-            }
-            style={{ color: "white", textDecoration: "none" }}
+           style={{ color: "white", textDecoration: "none" }}
             href="tel:2122445874"
           >
             <p>Office: 212-244-5874</p>
           </a>
           <a
-            onClick={() =>
-              props.Event(
-                "Randsman Phone",
-                "CELL Phone Called",
-                "CONTACT_SECTION"
-              )
-            }
             style={{ color: "white", textDecoration: "none" }}
             href="tel:9174946654"
           >
@@ -41,9 +27,6 @@ export default function Contact(props) {
           </a>
           <br />
           <a
-            onClick={() =>
-              props.Event("Randsman Email", "Email Clicked", "CONTACT_SECTION")
-            }
             style={{ color: "white", textDecoration: "none" }}
             target="_blank"
             rel="noopener noreferrer"
@@ -52,9 +35,6 @@ export default function Contact(props) {
             <p>randsman@aol.com</p>
           </a>
           <a
-            onClick={() =>
-              props.Event("Randsman Website", "Clicked", "CONTACT_SECTION")
-            }
             style={{ color: "white" }}
             target="_blank"
             rel="noopener noreferrer"
@@ -64,10 +44,7 @@ export default function Contact(props) {
           </a>
           <br />
           <a
-            onClick={() =>
-              props.Event("Bob Email", "Clicked", "CONTACT_SECTION")
-            }
-            style={{ color: "white", textDecoration: "none" }}
+           style={{ color: "white", textDecoration: "none" }}
             target="_blank"
             rel="noopener noreferrer"
             href="mailto:robertbalonek@gmail.com?"
@@ -75,9 +52,6 @@ export default function Contact(props) {
             <p>robertbalonek@gmail.com</p>
           </a>
           <a
-            onClick={() => {
-              props.Event("Bob Phone", "Clicked", "CONTACT_SECTION");
-            }}
             style={{ color: "white", textDecoration: "none" }}
             href="tel:5857212210"
           >
