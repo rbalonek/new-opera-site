@@ -1,22 +1,19 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./Engagements.css";
-import ReactPixel from "react-facebook-pixel";
 
 import Performances from "../../components/Databases/EngagementDatabase.js";
 import EngagementCard from "../../components/EngagementCard/EngagementCard";
 
-export default function Engagements(props) {
-  useEffect(() => {
-    ReactPixel.track("ViewContent", "data");
-  }, []);
+export default function Engagements() {
+  
   return (
     <div className="engagements__container">
       <h1 style={{ color: "black" }}>ENGAGEMENTS</h1>
       <div className="engagement__performance-cards_holder">
         {Performances &&
-          Performances.map((performance) => (
+          Performances.map((performance, index) => (
             <EngagementCard
-              Event={props.Event}
+              index={index}
               tickets={performance.tickets}
               opera={performance.opera}
               company={performance.company}
