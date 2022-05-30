@@ -11,6 +11,7 @@
   /* justify-content: center; */
   align-items: center;
   flex-direction: column;
+  border: 1px solid black
 }
 .listen-button__container:hover{
   border-bottom-right-radius: 5%;
@@ -30,7 +31,7 @@
     border-bottom-right-radius: 5%;
     position: fixed;
     font-size: small;
-    bottom: 10%;
+    bottom: 14%;
     height: 50px;
     width: 50px;
     background-color: red;
