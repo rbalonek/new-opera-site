@@ -4,6 +4,7 @@ import Shaunard from "../Audio/Shaunard.mp3"
 import HaydnCreation from "../Audio/Haydn_Creation_Sample.mp3"
 import VOOne from "../Audio/VO_Reel.mp3"
 import VOTwo from "../Audio/60_sec_2nd_cut.mp3"
+import Marcello from "../Audio/Marcello_Role_Excerpts.mp3"
 
 const AudioPlayList = [
   {
@@ -19,6 +20,12 @@ const AudioPlayList = [
     role: "Soloist",
     URL:CaminaBurana,
     img: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1653865853/robertbalonek.com/BobLiveShots/IMG_D0052F784D25-1_djgna7_lmmamb.png",
+  },
+  {
+    title: "La Boheme",
+    role: "Marcello",
+    URL:  Marcello,
+    img: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1651195525/robertbalonek.com/Performances/Boheme%20-%20Marcello%20-%202022/IMG_4338_jktckl.jpg",
   },
   {
     title: "La Boheme",
