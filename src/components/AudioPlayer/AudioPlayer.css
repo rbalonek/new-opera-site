@@ -18,6 +18,7 @@
   margin-bottom: 50px;
 
   border: solid thick black;
+  z-index:999;
 }
 .audio-player__info {
   position: relative;
@@ -61,6 +62,7 @@ audio {
     width: 320px;
     display: flex;
     flex-direction: column;
+    z-index:999;
   }
   .audio-player__img {
     right: 40px;

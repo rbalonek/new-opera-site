@@ -3,6 +3,7 @@
   position: fixed;
   bottom: 20%;
   border: 2px solid white;
+  z-index:999;
 }
 .audio-player__holder{
   width: 800px;
@@ -25,7 +26,7 @@
   width: 20px;
   border-radius: 50%;
   background-color: darkkhaki;
-
+  z-index:999;
 }
 .shrink-btn:hover{
   cursor: pointer;
@@ -105,7 +106,8 @@
     right: 10%; */
     right: 10%;
     top: 8%;
-    border: none
+    border: none;
+    z-index:999;
   }
   .audio-player__bottom{
     background-color:black;
