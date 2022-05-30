@@ -1,9 +1,9 @@
-import Saul from "../../components/Audio/Saul Sampler Shorter copy.mp3"
-import CarminaBurana from "../../components/Audio/Carmina Burana Sampler.mp3";
-import Shaunard from "../../components/Audio/Shaunard.mp3";
-import Haydn from "../../components/Audio/Haydn Creation Sample.mp3";
-import VoiceOverOne from "../../components/Audio/Reel - 5_25_20, 5.08 PM.mp3";
-import VoiceOverTwo from "../../components/Audio/60 sec reel2 2nd cut.mp3";
+// import Saul from "../../components/Audio/Saul Sampler Shorter copy.mp3"
+// import CarminaBurana from "../../components/Audio/Carmina Burana Sampler.mp3";
+// import Shaunard from "../../components/Audio/Shaunard.mp3";
+// import Haydn from "../../components/Audio/Haydn Creation Sample.mp3";
+// import VoiceOverOne from "../../components/Audio/Reel - 5_25_20, 5.08 PM.mp3";
+// import VoiceOverTwo from "../../components/Audio/60 sec reel2 2nd cut.mp3";
 
 const AudioPlayList = [
   {
@@ -18,7 +18,7 @@ const AudioPlayList = [
     title: "Carmina Burana excerpts",
     role: "Soloist",
     URL: "/static/media/Carmina Burana Sampler.207a2b1e.mp3",
-    img: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1632623733/robertbalonek.com/BobLiveShots/IMG_D0052F784D25-1_djgna7.jpg",
+    img: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1653865853/robertbalonek.com/BobLiveShots/IMG_D0052F784D25-1_djgna7_lmmamb.png",
   },
   {
     title: "La Boheme",

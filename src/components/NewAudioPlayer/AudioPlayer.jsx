@@ -3,13 +3,10 @@ import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 import "./AudioPlayer.css"
 
+
 export default function AudioPlayerComp(props) {
   const [trackNum, setTrackNum] = useState(0)
   let thePlaylist= []
-
-// console.log(props.songs)
-
-  // { props.songs &&  }
   props.songs.map((song) => {
     thePlaylist.push(song)
   })
@@ -33,6 +30,7 @@ export default function AudioPlayerComp(props) {
   }
   return (
     <div className='audio-player__container'>
+      <h4 onClick={props.toggleClick } className='shrink-btn'>-</h4>
       {!thePlaylist.length ? (
         <h1>Loading...</h1>
       ) : (
@@ -41,7 +39,7 @@ export default function AudioPlayerComp(props) {
             <div className='audio-player__description'>
             <p>{thePlaylist[trackNum].title}</p>
                 <p>{thePlaylist[trackNum].role}</p>
-                <img style={{height:"50px"}} src={thePlaylist[trackNum].img} alt={thePlaylist[trackNum].title} />
+                <img className='player__img' src={thePlaylist[trackNum].img} alt={thePlaylist[trackNum].title} />
             </div>
             <AudioPlayer
             className='audio-player'
@@ -50,6 +48,8 @@ export default function AudioPlayerComp(props) {
             src={thePlaylist[trackNum].URL}
             onClickNext={handleClickNext}
             onClickPrevious={handleClickPrev}
+            onEnded={handleClickNext}
+            // onPlay={e => console.log("onPlay")}
             />
             </div>
             
