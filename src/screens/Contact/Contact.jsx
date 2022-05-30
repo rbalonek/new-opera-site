@@ -1,11 +1,9 @@
 import React from "react";
 import "./Contact.css";
-// import ReactPixel from "react-facebook-pixel";
+
 
 export default function Contact(props) {
-  // useEffect(() => {
-    // ReactPixel.track("ViewContent", "data");
-  // }, []);
+ 
   return (
     <div className="contact__container">
       <div className="contact__split">
@@ -16,14 +14,12 @@ export default function Contact(props) {
           <h4>New York, NY 10036</h4>
           <br />
           <a
-            
             style={{ color: "white", textDecoration: "none" }}
             href="tel:2122445874"
           >
             <p>Office: 212-244-5874</p>
           </a>
           <a
-           
             style={{ color: "white", textDecoration: "none" }}
             href="tel:9174946654"
           >
@@ -31,7 +27,6 @@ export default function Contact(props) {
           </a>
           <br />
           <a
-            
             style={{ color: "white", textDecoration: "none" }}
             target="_blank"
             rel="noopener noreferrer"
@@ -40,7 +35,7 @@ export default function Contact(props) {
             <p>randsman@aol.com</p>
           </a>
           <a
-           style={{ color: "white" }}
+            style={{ color: "white" }}
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.randsman.com"
@@ -57,7 +52,6 @@ export default function Contact(props) {
             <p>robertbalonek@gmail.com</p>
           </a>
           <a
-           
             style={{ color: "white", textDecoration: "none" }}
             href="tel:5857212210"
           >

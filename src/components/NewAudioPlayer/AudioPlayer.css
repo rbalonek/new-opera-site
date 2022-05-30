@@ -1,0 +1,144 @@
+.audio-player__container{
+  text-align: -webkit-center;
+  position: fixed;
+  bottom: 20%;
+  border: 2px solid white;
+}
+.audio-player__holder{
+  width: 800px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 5px 3px 0 black;
+  display: flex;
+  flex-direction: row;
+}
+
+.shrink-btn{
+  position: absolute;
+  left: 5px;
+  top: -15px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: darkkhaki;
+
+}
+.shrink-btn:hover{
+  cursor: pointer;
+  background-color: yellow;
+}
+.audio-player__description__holder{
+  display: flex;
+  flex-direction: column;
+}
+.audio-player__description{
+
+}
+.audio-player{
+  width: 300px;
+  background-color:black
+}
+.audio-player__bottom{
+  background-color:black;
+  height: 50px;
+  position: relative;
+  top: 100px;
+}
+.song-list__conatiner{
+  border-bottom: 1px solid black;
+}
+.song-list{
+  width: 100%;
+  margin-right: 10px;
+  /* background-color: red; */
+  /* height: 500px; */
+  background-color: red;
+}
+.song-list__song{
+
+}
+.song-list__song:hover{
+  color:black;
+  cursor:pointer;
+  /* color: red; */
+}
+.player__img{
+  height: 200px;
+}
+/* @media (max-width: 850px){
+  .audio-player__holder{
+ 
+    width: 90%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+  }
+  .audio-player__container{
+    bottom: 0;
+    left: 10%;
+  }
+  .audio-player{
+    width: 300px;
+    background-color:black
+  }
+}
+@media (max-width: 400px){
+  .audio-player__holder{
+    width: 320px;
+  }
+  .audio-player{
+    width: 300px;
+    background-color:black
+  }
+} */
+.flexy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width:830px){
+  .player__img{
+    height: 80px;
+  }
+  .audio-player__holder{
+    /* width: 90%; */
+    width: 300px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0%;
+    /* height: 100%; */
+  }
+  .audio-player__container{
+    text-align: -webkit-center;
+    position: relative;
+    
+    /* position: fixed;
+    top: 10%;
+    right: 10%; */
+    border: 2px solid white;
+    
+  }
+  .audio-player__bottom{
+    background-color:black;
+    height: 10px;
+    position: relative;
+    top: 100px;
+  }
+  .ReactModal__Overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

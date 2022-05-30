@@ -16,7 +16,7 @@ export default function Footer(props) {
         <img className="footer__social-icons" src={Facebook} alt="facebook" />
       </a>
       <a
-       target="_blank"
+        target="_blank"
         rel="noopener noreferrer"
         href="https://www.robertbalonek.dev"
       >

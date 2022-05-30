@@ -1,16 +1,11 @@
 import React from "react";
 import CarouselHome from "../../../components/Carousels/Carousel/Carousel";
 import UpcomingGigs from "../../../components/UpcomingGigs/UpcomingGigs";
+
 import "./NewHome.css";
-// import ReactPixel from "react-facebook-pixel";
 
-// import useGaTracker from "../../../useGaTracker";
+export default function NewHome() {
 
-export default function NewHome(props) {
-  // useEffect(() => {
-  //   ReactPixel.track("ViewContent", "data");
-  // }, []);
-  // useGaTracker();
   return (
     <div className="newHome__conainer">
       <CarouselHome
@@ -21,7 +16,7 @@ export default function NewHome(props) {
           "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1635467337/robertbalonek.com/HomeCarousel/figaroShorterBanner_m3ld7s.png",
         ]}
       />
-      <UpcomingGigs/>
+      <UpcomingGigs />
     </div>
   );
 }

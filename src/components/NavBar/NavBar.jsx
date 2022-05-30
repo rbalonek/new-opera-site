@@ -50,12 +50,12 @@ export default function NavBar() {
             </p>
             <p
               onClick={() => {
-                history.push("/media");
+                history.push("/video");
                 window.scroll(0, 0);
                 setToggle(!toggle);
               }}
             >
-              Media
+              Video
             </p>
             <p
               onClick={() => {
@@ -109,16 +109,14 @@ export default function NavBar() {
         </p>
         <p
           onClick={() => {
-          
             window.scroll(0, 0);
-            history.push("/media");
+            history.push("/video");
           }}
         >
-          Media
+          Video
         </p>
         <p
           onClick={() => {
-            
             window.scroll(0, 0);
             history.push("/gallery");
           }}
@@ -127,7 +125,6 @@ export default function NavBar() {
         </p>
         <p
           onClick={() => {
-          
             window.scroll(0, 0);
             history.push("/contact");
           }}

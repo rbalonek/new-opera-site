@@ -13,23 +13,23 @@ export default function MainContainer(props) {
   return (
     <Switch>
       <Route path="/about">
-        <About  />
+        <About />
       </Route>
 
       <Route path="/engagements">
-        <Engagements />
+        <Engagements/>
       </Route>
 
-      <Route path="/media">
-        <Media  />
+      <Route path="/video">
+        <Media />
       </Route>
 
       <Route path="/gallery">
-        <Gallery  />
+        <Gallery />
       </Route>
 
       <Route path="/contact">
-        <Contact  />
+        <Contact />
       </Route>
 
       <Route path="/">
