@@ -49,6 +49,7 @@ export default function AudioPlayerComp(props) {
             onClickNext={handleClickNext}
             onClickPrevious={handleClickPrev}
             onEnded={handleClickNext}
+                // eslint-disable-next-line
             onPlay={e => props.setCurrentSong(thePlaylist[trackNum].title + " " + "-" + " " + thePlaylist[trackNum].role)}
             />
             </div>
