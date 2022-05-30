@@ -54,8 +54,6 @@
 .song-list{
   width: 100%;
   margin-right: 10px;
-  /* background-color: red; */
-  /* height: 500px; */
   background-color: red;
 }
 .song-list__song{
@@ -69,36 +67,7 @@
 .player__img{
   height: 200px;
 }
-/* @media (max-width: 850px){
-  .audio-player__holder{
- 
-    width: 90%;
-    background-color: black;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5%;
-  }
-  .audio-player__container{
-    bottom: 0;
-    left: 10%;
-  }
-  .audio-player{
-    width: 300px;
-    background-color:black
-  }
-}
-@media (max-width: 400px){
-  .audio-player__holder{
-    width: 320px;
-  }
-  .audio-player{
-    width: 300px;
-    background-color:black
-  }
-} */
+
 .flexy{
   display: flex;
   justify-content: center;
@@ -107,6 +76,9 @@
 @media (max-width:830px){
   .player__img{
     height: 80px;
+  }
+  .song-list{
+    margin-right: 0px;
   }
   .audio-player__holder{
     /* width: 90%; */
