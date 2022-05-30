@@ -12,6 +12,7 @@ import Stop from "../components/images/playerButtons/Hide.png"
 import Modal from "react-modal";
 
 export default function Layout(props) {
+  
   const [toggle, setToggle] = useState(false)
   const [button, setButton] = useState(PlayList)
   const [buttonText, setButtonText] = useState("Show Player")
