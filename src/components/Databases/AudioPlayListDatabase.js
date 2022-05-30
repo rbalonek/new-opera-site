@@ -23,12 +23,6 @@ const AudioPlayList = [
   },
   {
     title: "La Boheme",
-    role: "Marcello",
-    URL:  Marcello,
-    img: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1651195525/robertbalonek.com/Performances/Boheme%20-%20Marcello%20-%202022/IMG_4338_jktckl.jpg",
-  },
-  {
-    title: "La Boheme",
     role: "Shaunard",
     URL:  Shaunard,
     img: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601221847/robertbalonek.com/BobLiveShots/IMG_2592.JPG_pqvtap.jpg",
