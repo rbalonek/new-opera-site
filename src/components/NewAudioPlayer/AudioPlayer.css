@@ -77,8 +77,12 @@
   .player__img{
     height: 80px;
   }
+  .audio-player__description__holder{
+    border: 2px solid white;
+  }
   .song-list{
     margin-right: 0px;
+    border: 2px solid white;
   }
   .audio-player__holder{
     /* width: 90%; */
@@ -94,13 +98,14 @@
   }
   .audio-player__container{
     text-align: -webkit-center;
-    position: relative;
+    /* position: relative; */
     
     /* position: fixed;
     top: 10%;
     right: 10%; */
-    border: 2px solid white;
-    
+    right: 10%;
+    top: 8%;
+    border: none
   }
   .audio-player__bottom{
     background-color:black;
