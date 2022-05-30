@@ -17,7 +17,6 @@ export default function AudioPlayer(props) {
           />
           <div className="audio-player__controls">
             <ReactAudioPlayer
-             
               className="player"
               src={props.URL}
               controls
@@ -28,3 +27,4 @@ export default function AudioPlayer(props) {
     </div>
   );
 }
+

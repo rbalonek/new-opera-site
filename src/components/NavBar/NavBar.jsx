@@ -3,7 +3,7 @@ import "./NavBar.css";
 import { useHistory } from "react-router-dom";
 import HamburgerMenu from "../HamburgerMenu/HamburgerMenu";
 
-export default function NavBar(props) {
+export default function NavBar() {
   const [toggle, setToggle] = useState(false);
   let history = useHistory();
   const handleClickToggle = () => {
@@ -109,7 +109,6 @@ export default function NavBar(props) {
         </p>
         <p
           onClick={() => {
-           
             window.scroll(0, 0);
             history.push("/video");
           }}
@@ -118,7 +117,6 @@ export default function NavBar(props) {
         </p>
         <p
           onClick={() => {
-           
             window.scroll(0, 0);
             history.push("/gallery");
           }}
@@ -127,7 +125,6 @@ export default function NavBar(props) {
         </p>
         <p
           onClick={() => {
-           
             window.scroll(0, 0);
             history.push("/contact");
           }}

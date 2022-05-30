@@ -9,7 +9,6 @@ export default function Footer(props) {
   return (
     <div className="footer__container">
       <a
-      
         target="_blank"
         rel="noopener noreferrer"
         href="https://www.facebook.com/RBalonek/"
@@ -17,7 +16,6 @@ export default function Footer(props) {
         <img className="footer__social-icons" src={Facebook} alt="facebook" />
       </a>
       <a
-      
         target="_blank"
         rel="noopener noreferrer"
         href="https://www.robertbalonek.dev"
@@ -25,7 +23,6 @@ export default function Footer(props) {
         <p className="footer_copywrite">© 2013 by Robert Balonek</p>
       </a>
       <a
-      
         target="_blank"
         rel="noopener noreferrer"
         href="https://instagram.com/bobbybaritono"

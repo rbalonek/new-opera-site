@@ -3,19 +3,15 @@ import "./UpcomingGigs.css";
 
 export default function UpcomingGigs() {
   const goToBarber = () => {
-   
     window.open("https://www.operaonthejames.org/shows");
   };
   const goToRig = () => {
-   
     window.open("https://www.bohemeopera.org/main-stage");
   };
   const goToMarcello = () => {
-   
-    window.open("https://www.operamodesto.org/");
+     window.open("https://www.operamodesto.org/");
   };
   const goToErnesto = () => {
-   
     window.open("https://nycopera.com/shows/finzi/");
   };
 

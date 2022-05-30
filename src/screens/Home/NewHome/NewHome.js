@@ -16,7 +16,6 @@ export default function NewHome() {
           "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1635467337/robertbalonek.com/HomeCarousel/figaroShorterBanner_m3ld7s.png",
         ]}
       />
-      
       <UpcomingGigs />
     </div>
   );
