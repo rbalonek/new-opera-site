@@ -17,8 +17,6 @@
   position: sticky;
   top: 0;
   z-index: 999;
-  transition-duration: 1s;
-  transition-property: height;
 }
 
 .header__logo__container {
@@ -27,8 +25,6 @@
   cursor: pointer;
 }
 .header__logo-title {
-  /* text-decoration: underline;
-  text-decoration-thickness: 2px; */
   border-bottom: 1px solid black;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -43,8 +39,6 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 20px;
-  /* width: 145px; */
-  /* letter-spacing: 4px; */
   transition-duration: 500ms;
   transition-property: font-size;
 }

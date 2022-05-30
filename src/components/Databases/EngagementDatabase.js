@@ -1,7 +1,7 @@
 const Performances = [
  
   {
-    tickets: "true",
+    tickets: "false",
     ticketLink: "https://tickets.galloarts.org/8566", //"https://www.operamodesto.org/concerts/",
     role: "Marcello",
     opera: "La Boheme",

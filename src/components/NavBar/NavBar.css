@@ -1,7 +1,6 @@
 .nav__container {
   display: flex;
   justify-content: space-around;
-  /* background-color: blue; */
   width: 50vw;
 }
 .nav__container p:hover {
@@ -38,9 +37,6 @@
 }
 .hamburger-menu__links p {
   padding-bottom: 20px;
-  /* background-color: red;
-  width: 150px;
-  border-radius: 10%; */
 }
 
 @media (max-width: 900px) {
@@ -52,7 +48,5 @@
     position: absolute;
     top: -20px;
     right: -10px;
-    /* top: 10px; */
-    /* z-index: 999; */
   }
 }
