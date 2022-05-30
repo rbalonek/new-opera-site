@@ -118,7 +118,6 @@ export default function NavBar(props) {
         </p>
         <p
           onClick={() => {
-           
             window.scroll(0, 0);
             history.push("/gallery");
           }}
