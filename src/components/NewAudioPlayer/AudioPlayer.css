@@ -53,17 +53,18 @@
 }
 .song-list{
   width: 100%;
+  margin-right: 10px;
   /* background-color: red; */
   /* height: 500px; */
-  background-color: #401D24;
+  background-color: red;
 }
 .song-list__song{
 
 }
 .song-list__song:hover{
-  /* color:black; */
+  color:black;
   cursor:pointer;
-  color: red;
+  /* color: red; */
 }
 .player__img{
   height: 200px;

@@ -39,14 +39,14 @@
 } */
 @media (max-width: 500px) {
   .carousel {
-    /* height: 250px; */
+    height: 200px;
     /* width: 100%; */
     width: auto;
   }
   .carousel__image {
-    /* height: 250px; */
+    height: 200px;
     /* height: auto; */
     /* width: unset; */
-    object-fit: contain;
+    /* object-fit: contain; */
   }
 }

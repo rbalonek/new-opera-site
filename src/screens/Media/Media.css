@@ -7,29 +7,13 @@
   background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
-}
-.audio-video__split {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-.audio__players__container {
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* flex-wrap: wrap; */
-  /* justify-content: space-around; */
-}
-.audio__section {
   color: white;
   text-align: center;
-  /* background-color: blue; */
-  /* display: flex;
-  flex-direction: row; */
-  /* width: 50vw; */
-  position: relative;
-  /* right: 50px; */
 }
+
+
 .video__section {
   color: white;
   text-align: center;
@@ -37,29 +21,21 @@
   /* display: flex; */
   /* width: 50vw; */
   display: flex;
-  flex-direction: column;
-  position: relative;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  margin:20px;
   /* left: 50px; */
+  /* background-color: red; */
+  flex-wrap: wrap;
+  width: 100%;
 }
 .media__video {
-  margin-bottom: 50px;
+  margin: 30px;
+
 }
 
 @media (max-width: 1090px) {
-  .audio-video__split {
-    flex-direction: column;
-    align-items: center;
-  }
-  .media__container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .video__section {
-    left: 0px;
-  }
-  .audio__section {
-    right: 0px;
-  }
+ 
 }
 @media (max-width: 590px) {
   .media__video {

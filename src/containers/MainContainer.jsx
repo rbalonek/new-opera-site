@@ -20,7 +20,7 @@ export default function MainContainer(props) {
         <Engagements/>
       </Route>
 
-      <Route path="/media">
+      <Route path="/video">
         <Media />
       </Route>
 

@@ -5,10 +5,8 @@ export default function Media(props) {
   
   return (
     <div className="media__container">
-      <div className="audio-video__split">
-        
+      
         <div className="video__section">
-          <h1>VIDEO</h1>
 
           <iframe
           className="media__video"
@@ -73,7 +71,7 @@ export default function Media(props) {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />
-        </div>
+        
       </div>
     </div>
   );

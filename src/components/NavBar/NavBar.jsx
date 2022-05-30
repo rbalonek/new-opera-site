@@ -50,12 +50,12 @@ export default function NavBar(props) {
             </p>
             <p
               onClick={() => {
-                history.push("/media");
+                history.push("/video");
                 window.scroll(0, 0);
                 setToggle(!toggle);
               }}
             >
-              Media
+              Video
             </p>
             <p
               onClick={() => {
@@ -111,10 +111,10 @@ export default function NavBar(props) {
           onClick={() => {
            
             window.scroll(0, 0);
-            history.push("/media");
+            history.push("/video");
           }}
         >
-          Media
+          Video
         </p>
         <p
           onClick={() => {
