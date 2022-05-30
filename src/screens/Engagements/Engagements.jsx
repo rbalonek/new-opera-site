@@ -1,20 +1,17 @@
 import React from "react";
 import "./Engagements.css";
-
-
 import Performances from "../../components/Databases/EngagementDatabase.js";
 import EngagementCard from "../../components/EngagementCard/EngagementCard";
 
 export default function Engagements(props) {
-
-  return (
+return (
     <div className="engagements__container">
       <h1 style={{ color: "black" }}>ENGAGEMENTS</h1>
       <div className="engagement__performance-cards_holder">
         {Performances &&
-          Performances.map((performance) => (
+          Performances.map((performance, index) => (
             <EngagementCard
-             
+              index={index}
               tickets={performance.tickets}
               opera={performance.opera}
               company={performance.company}

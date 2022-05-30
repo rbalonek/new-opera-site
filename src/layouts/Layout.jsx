@@ -56,7 +56,6 @@ export default function Layout(props) {
   return (
     <div>
       <Header />
-      
       <main>{props.children}</main>
       <ListenButton button={button} buttonText={buttonText} toggle={toggle} toggleClick={toggleClick} />
       
@@ -70,8 +69,7 @@ export default function Layout(props) {
     >
     <NewAudioPlayer toggle={toggle} toggleClick={toggleClick} songs={AudioPlayList} />
     </Modal>
-    
-      <Footer />
+    <Footer />
     </div>
   );
 }

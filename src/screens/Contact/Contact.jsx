@@ -14,7 +14,7 @@ export default function Contact(props) {
           <h4>New York, NY 10036</h4>
           <br />
           <a
-           style={{ color: "white", textDecoration: "none" }}
+            style={{ color: "white", textDecoration: "none" }}
             href="tel:2122445874"
           >
             <p>Office: 212-244-5874</p>
@@ -44,7 +44,7 @@ export default function Contact(props) {
           </a>
           <br />
           <a
-           style={{ color: "white", textDecoration: "none" }}
+            style={{ color: "white", textDecoration: "none" }}
             target="_blank"
             rel="noopener noreferrer"
             href="mailto:robertbalonek@gmail.com?"
