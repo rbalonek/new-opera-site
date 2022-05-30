@@ -7,9 +7,9 @@ import "./AudioPlayer.css"
 export default function AudioPlayerComp(props) {
   const [trackNum, setTrackNum] = useState(0)
   let thePlaylist= []
-  props.songs.map((song) => {
+  props.songs.map((song) => 
     thePlaylist.push(song)
-  })
+  )
   
   const handleClickNext = () => {
     if (trackNum < thePlaylist.length-1) {

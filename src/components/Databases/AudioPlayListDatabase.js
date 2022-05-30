@@ -1,10 +1,3 @@
-import Saul from "../../components/Audio/Saul_Sampler_Shorter.mp3"
-import CarminaBurana from "../../components/Audio/Carmina_Burana_Sampler.mp3";
-import Shaunard from "../../components/Audio/Shaunard.mp3";
-import Haydn from "../../components/Audio/Haydn_Creation_Sample.mp3";
-import VoiceOverOne from "../../components/Audio/VO_Reel.mp3";
-import VoiceOverTwo from "../../components/Audio/60_sec_2nd_cut.mp3";
-
 const AudioPlayList = [
   {
   title: "Handel Saul excerpts",

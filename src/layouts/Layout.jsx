@@ -13,7 +13,6 @@ import Modal from "react-modal";
 
 export default function Layout(props) {
   const [toggle, setToggle] = useState(false)
-  const [showMusicPlayerModal, setShowMusicPlayerModal] = useState("hide")
   const [button, setButton] = useState(PlayList)
   const [buttonText, setButtonText] = useState("Show Player")
   const [modalIsOpen, setIsOpen] = useState(false);
@@ -21,7 +20,6 @@ export default function Layout(props) {
   const toggleClick = () => {
     if (toggle === false) {
       setToggle(true)
-      setShowMusicPlayerModal("show")
       setButton(Stop)
       setButtonText("Hide Player")
       openModal()
@@ -30,7 +28,6 @@ export default function Layout(props) {
       }
     } else {
       setToggle(false)
-      setShowMusicPlayerModal("hide")
       setButton(PlayList)
       setButtonText("Show Player")
       closeModal()
@@ -65,7 +62,8 @@ export default function Layout(props) {
       onRequestClose={closeModal}
       // style={customStyles}
       className="Modal flexy"
-      contentLabel="Modal"
+        contentLabel="Modal"
+        ariaHideApp={false}
     >
     <NewAudioPlayer toggle={toggle} toggleClick={toggleClick} songs={AudioPlayList} />
     </Modal>
