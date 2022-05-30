@@ -120,7 +120,7 @@ export default function Media(props) {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />
-        
+          </div>  
       </div>
     </div>
   );
