@@ -2,7 +2,6 @@ import React from "react";
 import "./Media.css";
 
 export default function Media(props) {
-  
   return (
     <div className="media__container">
       
@@ -16,28 +15,26 @@ export default function Media(props) {
             title="Figaro Sampler"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen />
+        
+          <iframe
+          className="media__video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/xGY1YaYIpJs"
+            title="Marcello Sampler"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen />
-          
-            <iframe
+        <iframe
             className="media__video"
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/nPHHkh9TjHk"
+              src="https://www.youtube.com/embed/7g02G42qkoQ"
               title="Pari Siamo"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen />
-          
-              <iframe
-              className="media__video"
-              title="Cortigiani"
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/TW-8fsal8Rk"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
+          allowFullScreen />
          
           <iframe
             // onClick={() => console.log("Clicked")}
@@ -60,7 +57,27 @@ export default function Media(props) {
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
-          />
+        />
+        <iframe
+            className="media__video"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/nPHHkh9TjHk"
+              title="Pari Siamo"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen />
+          
+              <iframe
+              className="media__video"
+              title="Cortigiani"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/TW-8fsal8Rk"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
           <iframe
             className="media__video"
             title="Blondel"

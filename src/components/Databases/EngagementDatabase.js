@@ -1,5 +1,48 @@
 const Performances = [
- 
+
+  
+  {
+    tickets: "true",
+    ticketLink: "https://www.auburnsymphony.com/concerts/mothers-day-season-finale-2023-ode-to-joy/",
+    role: "Soloist",
+    opera: "Beethoven 9th",
+    composer: "Beethoven",
+    company: "Auburn Symphony",
+    logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1659297756/robertbalonek.com/Logos/Screen_Shot_2022-07-31_at_1.01.59_PM_tz3qia.png",
+    dates: "May 14th 2023",
+    venue: "Mondavi Center for the Performing Arts, UC Davis",
+    modalImages: [
+      
+    ],
+  },
+  {
+    tickets: "true",
+    ticketLink: "https://www.operamodesto.org/2021-2022-season-2/",
+    role: "Edgar",
+    opera: "Tell Tale Heart",
+    composer: "Copeland",
+    company: "Opera Modesto",
+    logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624394360/robertbalonek.com/Logos/OperaModesto_tggc0y.jpg",
+    dates: "January 14-20 2023",
+    venue: "State Theater, Modesto CA",
+    modalImages: [
+      
+    ],
+  },
+  {
+    tickets: "true",
+    ticketLink: "https://www.operasj.org/the-marriage-of-figaro-ticketpage/",
+    role: "Count (Cover)",
+    opera: "Le Nozze di Figaro",
+    composer: "Mozart",
+    company: "Opera San Jose",
+    logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1659296557/robertbalonek.com/Logos/Screen_Shot_2022-07-31_at_12.41.41_PM_v5dhbl.png",
+    dates: "September 10-25th 2022",
+    venue: "California Theater, San Jose CA",
+    modalImages: [
+      
+    ],
+  },
   {
     tickets: "false",
     ticketLink: "https://tickets.galloarts.org/8566", //"https://www.operamodesto.org/concerts/",
