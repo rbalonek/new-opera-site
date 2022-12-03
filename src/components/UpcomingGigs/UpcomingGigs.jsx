@@ -3,10 +3,10 @@ import "./UpcomingGigs.css";
 
 export default function UpcomingGigs() {
   const goToCount = () => {
-    window.open("https://www.operasj.org/the-marriage-of-figaro-ticketpage/");
+    window.open("https://secure.operasj.org/overview/tosca");
   };
   const goToEdgar = () => {
-     window.open("https://www.operamodesto.org/2021-2022-season-2/");
+     window.open("https://secure.operasj.org/overview/falstaff");
   };
   const goToBethoven = () => {
     window.open("https://www.auburnsymphony.com/concerts/mothers-day-season-finale-2023-ode-to-joy/");
@@ -26,13 +26,13 @@ export default function UpcomingGigs() {
             src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1659296557/robertbalonek.com/Logos/Screen_Shot_2022-07-31_at_12.41.41_PM_v5dhbl.png"
           />
           <p>
-            OPERA: <span className="bold">Le Nozze di Figaro</span>
+            OPERA: <span className="bold">Tosca</span>
           </p>
           <p>
-            ROLE: <span className="bold">Count (Cover)</span>
+            ROLE: <span className="bold">Angelotti (Scarpia Cover)</span>
           </p>
           <p>
-            DATE: <span className="bold">September 10-25th 2022</span>
+            DATE: <span className="bold">April 15-30th 2023</span>
           </p>
         </div>
 
@@ -42,16 +42,16 @@ export default function UpcomingGigs() {
         >
           <img
             alt="ootj"
-            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624394360/robertbalonek.com/Logos/OperaModesto_tggc0y.jpg"
+            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1659296557/robertbalonek.com/Logos/Screen_Shot_2022-07-31_at_12.41.41_PM_v5dhbl.png"
           />
           <p>
-            OPERA: <span className="bold">The Tell Tale Heart</span>
+            OPERA: <span className="bold">Falstaff</span>
           </p>
           <p>
-            ROLE: <span className="bold">Edgar</span>
+            ROLE: <span className="bold">Ford (Cover)</span>
           </p>
           <p>
-            DATE: <span className="bold">January 14-20 2023</span>
+            DATE: <span className="bold">Feb 11-26 2023</span>
           </p>
         </div>
 

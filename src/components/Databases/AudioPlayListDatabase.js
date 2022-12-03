@@ -13,19 +13,19 @@ const AudioPlayList = [
     URL: Saul,
     // URL: "/static/media/Saul_Sampler_Shorter.8ed67463.mp3",
     url_helper:Saul,
-    img: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1632620849/robertbalonek.com/BobLiveShots/Ottone_jrpexs.png",
+    img: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1670105879/robertbalonek.com/Avatars/IMG_6533_xrmuna.jpg",
   },
   {
     title: "Carmina Burana excerpts",
     role: "Soloist",
     URL:CaminaBurana,
-    img: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1653865853/robertbalonek.com/BobLiveShots/IMG_D0052F784D25-1_djgna7_lmmamb.png",
+    img: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1670105875/robertbalonek.com/Avatars/IMG_6658_f4dszr.jpg",
   },
   {
     title: "La Boheme",
     role: "Marcello",
     URL:  Marcello,
-    img: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1651195525/robertbalonek.com/Performances/Boheme%20-%20Marcello%20-%202022/IMG_4338_jktckl.jpg",
+    img: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1670105872/robertbalonek.com/Avatars/IMG_6638_rq72sn.jpg",
   },
   {
     title: "La Boheme",
@@ -37,19 +37,19 @@ const AudioPlayList = [
     title: "Haydn Creation",
     role: "Soloist",
     URL: HaydnCreation,
-    img: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145841/robertbalonek.com/Headshots/Too_Much-_ay3b0k.jpg",
+    img: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1670105883/robertbalonek.com/Avatars/IMG_6682_tskryh.jpg",
   },
   {
     title: "Voice Over Reel",
     role: "Voice Over",
     URL: VOOne,
-    img: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145832/robertbalonek.com/Headshots/CoverPg_jfbfqm.jpg",
+    img: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1670105917/robertbalonek.com/Avatars/IMG_6570_tm3ynf.jpg",
   },
   {
     title: "Voice Over Reel Two",
     role: "Voice Over",
     URL: VOTwo,
-    img: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1632613515/robertbalonek.com/Headshots/hsFace_kbxsok.jpg",
+    img: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1670105912/robertbalonek.com/Avatars/IMG_6565_wmcsgn.jpg",
     },
 ]
 export default AudioPlayList

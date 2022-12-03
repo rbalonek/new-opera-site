@@ -17,20 +17,34 @@ const Performances = [
   },
   {
     tickets: "true",
-    ticketLink: "https://www.operamodesto.org/2021-2022-season-2/",
-    role: "Edgar",
-    opera: "Tell Tale Heart",
-    composer: "Copeland",
-    company: "Opera Modesto",
-    logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624394360/robertbalonek.com/Logos/OperaModesto_tggc0y.jpg",
-    dates: "January 14-20 2023",
-    venue: "State Theater, Modesto CA",
+    ticketLink: "https://secure.operasj.org/overview/tosca",
+    role: "Angelotti (Scarpia Cover)",
+    opera: "Tosca",
+    composer: "Puccini",
+    company: "Opera San jose",
+    logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1659296557/robertbalonek.com/Logos/Screen_Shot_2022-07-31_at_12.41.41_PM_v5dhbl.png",
+    dates: "April 15-30 2023",
+    venue: "California Theater, San Jose CA",
     modalImages: [
       
     ],
   },
   {
     tickets: "true",
+    ticketLink: "https://secure.operasj.org/overview/falstaff",
+    role: "Ford (Cover)",
+    opera: "Falstaff",
+    composer: "Verdi",
+    company: "Opera San jose",
+    logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1659296557/robertbalonek.com/Logos/Screen_Shot_2022-07-31_at_12.41.41_PM_v5dhbl.png",
+    dates: "Feb 11-26 2023",
+    venue: "California Theater, San Jose CA",
+    modalImages: [
+      
+    ],
+  },
+  {
+    tickets: "false",
     ticketLink: "https://www.operasj.org/the-marriage-of-figaro-ticketpage/",
     role: "Count (Cover)",
     opera: "Le Nozze di Figaro",
