@@ -1,5 +1,18 @@
 const Performances = [
-
+ {
+    tickets: "true",
+    ticketLink: "https://www.wbopera.org/tickets",
+    role: "Dutchman",
+    opera: "Der Fliegende Holländer",
+    composer: "Wagner",
+    company: "West Bay Opera",
+    logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1679178555/robertbalonek.com/Logos/Logo_Dutchman_whazbd.jpg",
+    dates: "May 26- June 4th 2023",
+    venue: "LUCIE STERN THEATRE Palo Alto CA",
+    modalImages: [
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1679178341/robertbalonek.com/Logos/Dutchman_cbzpca.jpg"
+    ],
+  },
   
   {
     tickets: "true",
@@ -30,7 +43,20 @@ const Performances = [
     ],
   },
   {
-    tickets: "true",
+    tickets: "false",
+    ticketLink: "https://www.strazcenter.org/opera-tampa/",
+    role: "Silvio (Cover)",
+    opera: "Pagliacci",
+    composer: "Leoncavallo",
+    company: "Opera Tampa",
+    logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1679178680/robertbalonek.com/Logos/OperaTampa_v3snab.png",
+    dates: "March 10-12",
+    venue: "Straz Center, Tampa FL",
+    modalImages: [
+    ],
+  },
+  {
+    tickets: "false",
     ticketLink: "https://secure.operasj.org/overview/falstaff",
     role: "Ford (Cover)",
     opera: "Falstaff",
@@ -40,7 +66,8 @@ const Performances = [
     dates: "Feb 11-26 2023",
     venue: "California Theater, San Jose CA",
     modalImages: [
-      
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1679177956/robertbalonek.com/BobLiveShots/Ford_kjoqk4.png",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1679178209/robertbalonek.com/BobLiveShots/FordLive_ikcdhc.png"
     ],
   },
   {

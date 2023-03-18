@@ -1,12 +1,13 @@
 import React from "react";
 import "./UpcomingGigs.css";
-
+import WestBay from "../images/Logos/WBO.webp"
+ 
 export default function UpcomingGigs() {
   const goToCount = () => {
     window.open("https://secure.operasj.org/overview/tosca");
   };
   const goToEdgar = () => {
-     window.open("https://secure.operasj.org/overview/falstaff");
+     window.open("https://www.wbopera.org/tickets");
   };
   const goToBethoven = () => {
     window.open("https://www.auburnsymphony.com/concerts/mothers-day-season-finale-2023-ode-to-joy/");
@@ -41,17 +42,17 @@ export default function UpcomingGigs() {
           className="upcoming___show-container split__2022"
         >
           <img
-            alt="ootj"
-            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1659296557/robertbalonek.com/Logos/Screen_Shot_2022-07-31_at_12.41.41_PM_v5dhbl.png"
+            alt="West Bay Opera"
+            src={WestBay}
           />
           <p>
-            OPERA: <span className="bold">Falstaff</span>
+            OPERA: <span className="bold">Der Fliegende Holländer</span>
           </p>
           <p>
-            ROLE: <span className="bold">Ford (Cover)</span>
+            ROLE: <span className="bold">Dutchman</span>
           </p>
           <p>
-            DATE: <span className="bold">Feb 11-26 2023</span>
+            DATE: <span className="bold">May 26- June 4th 2023</span>
           </p>
         </div>
 
