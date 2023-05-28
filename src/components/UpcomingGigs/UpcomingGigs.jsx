@@ -3,14 +3,14 @@ import "./UpcomingGigs.css";
 import WestBay from "../images/Logos/WBO.webp"
  
 export default function UpcomingGigs() {
-  const goToCount = () => {
-    window.open("https://secure.operasj.org/overview/tosca");
+  const gotToFirstEvent = () => {
+    window.open("https://www.operasj.org/23-24/");
   };
-  const goToEdgar = () => {
+  const goToSecondEvent = () => {
      window.open("https://www.wbopera.org/tickets");
   };
-  const goToBethoven = () => {
-    window.open("https://www.auburnsymphony.com/concerts/mothers-day-season-finale-2023-ode-to-joy/");
+  const goToThirdEvent = () => {
+    window.open("https://mendocinomusic.org/event/festival-orchestra-2-2023/");
   };
 
   return (
@@ -19,30 +19,30 @@ export default function UpcomingGigs() {
     
       <div className="twentyTwo-shows">
         <div
-          onClick={goToCount}
+          onClick={gotToFirstEvent}
           className="upcoming___show-container split__2022"
         >
           <img
-            alt="sanJoseOpera"
+            alt="First Upcoming Event"
             src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1659296557/robertbalonek.com/Logos/Screen_Shot_2022-07-31_at_12.41.41_PM_v5dhbl.png"
           />
           <p>
-            OPERA: <span className="bold">Tosca</span>
+            OPERA: <span className="bold">Roméo et Juliette</span>
           </p>
           <p>
-            ROLE: <span className="bold">Angelotti (Scarpia Cover)</span>
+            ROLE: <span className="bold">Count Capulet</span>
           </p>
           <p>
-            DATE: <span className="bold">April 15-30th 2023</span>
+            DATE: <span className="bold">September 2023</span>
           </p>
         </div>
 
         <div
-          onClick={goToEdgar}
+          onClick={goToSecondEvent}
           className="upcoming___show-container split__2022"
         >
           <img
-            alt="West Bay Opera"
+            alt="Second Upcoming Event"
             src={WestBay}
           />
           <p>
@@ -57,21 +57,21 @@ export default function UpcomingGigs() {
         </div>
 
         <div
-          onClick={goToBethoven}
+          onClick={goToThirdEvent}
           className="upcoming___show-container split__2022"
         >
           <img
-            alt="beethoven"
-            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1659297756/robertbalonek.com/Logos/Screen_Shot_2022-07-31_at_1.01.59_PM_tz3qia.png"
+            alt="Third Upcoming Event"
+            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1685230486/MMF-Logo-black-gold_200x146_lqmktr.png"
           />
           <p>
-            OPERA: <span className="bold">Beethoven 9th</span>
+            OPERA: <span className="bold">Barber Of Seville</span>
           </p>
           <p>
-            ROLE: <span className="bold">Soloist</span>
+            ROLE: <span className="bold">Figaro</span>
           </p>
           <p>
-            DATE: <span className="bold">May 14 2023</span>
+            DATE: <span className="bold">July 21, 7:30 PM  2023</span>
           </p>
         </div>
         
