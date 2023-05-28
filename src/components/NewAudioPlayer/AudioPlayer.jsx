@@ -28,6 +28,11 @@ export default function AudioPlayerComp(props) {
   const handleClickSong = ( songNum) => {
     setTrackNum(songNum)
   }
+  const handleStartPlayer = () => {
+    window.dataLayer.push({
+      event: 'start_player'
+    });
+  };
   return (
     <div className='audio-player__container'>
       <h4 onClick={props.toggleClick } className='shrink-btn'>-</h4>
@@ -50,7 +55,10 @@ export default function AudioPlayerComp(props) {
             onClickPrevious={handleClickPrev}
             onEnded={handleClickNext}
                 // eslint-disable-next-line
-            onPlay={e => props.setCurrentSong(thePlaylist[trackNum].title + " " + "-" + " " + thePlaylist[trackNum].role)}
+                onPlay={e =>{
+                  props.setCurrentSong(thePlaylist[trackNum].title + " " + "-" + " " + thePlaylist[trackNum].role);
+                  handleStartPlayer();
+                }}
             />
             </div>
             
