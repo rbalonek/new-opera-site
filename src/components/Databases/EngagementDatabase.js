@@ -10,12 +10,25 @@ const Performances = [
     dates: "May 26- June 4th 2023",
     venue: "LUCIE STERN THEATRE Palo Alto CA",
     modalImages: [
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1685232630/robertbalonek.com/BobLiveShots/Dutchman%202023/Der_Fliegende_Holla%CC%88nderMay_24_2023-_38_wbautp.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1685232632/robertbalonek.com/BobLiveShots/Dutchman%202023/Der_Fliegende_Holla%CC%88nderMay_24_2023-_203_yfbzlf.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1685232642/robertbalonek.com/BobLiveShots/Dutchman%202023/Dutchman_From_Review_ye137y.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1685232630/robertbalonek.com/BobLiveShots/Dutchman%202023/Der_Fliegende_Holla%CC%88nderMay_24_2023-_31_xsfdsf.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1685232631/robertbalonek.com/BobLiveShots/Dutchman%202023/Der_Fliegende_Holla%CC%88nderMay_24_2023-_194_wmx84f.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1685232630/robertbalonek.com/BobLiveShots/Dutchman%202023/Der_Fliegende_Holla%CC%88nderMay_24_2023-_34_td0wio.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1679178341/robertbalonek.com/Logos/Dutchman_cbzpca.jpg"
+    ],
+    reviews: [
+      {
+        Quote:
+          "From his opening, deeply profound notes of baritone, Robert Balonek as the Dutchman commands the stage.  As he mournfully sings of his eternal doom, his own frustration bellows forth that no matter how much he has tried – purposeful wrecks on rocky shores or intentional battles with pirates – “Death I found not.”  Ghostly is his appearance with wide-opened eyes that stare vacantly off into some unseen horizon.  As he continues to scorn his life of no death, his intoned notes shake from the depths of his tortured soul, leading to a pleading for God’s salvation in a voice so accordantly impressive, it is impossible not to think his prayer must be heard in the great above.  With notes shuddering in their own dread and with a volume that near shakes the stage, he sings, “When all the dead rise, then I’ll fade into nothing … Eternal destruction, take me!”",
+        From: "https://theatreeddys.com/2023/05/the-flying-dutchman.html",
+      },
     ],
   },
   
   {
-    tickets: "true",
+    tickets: "false",
     ticketLink: "https://www.auburnsymphony.com/concerts/mothers-day-season-finale-2023-ode-to-joy/",
     role: "Soloist",
     opera: "Beethoven 9th",
@@ -25,11 +38,11 @@ const Performances = [
     dates: "May 14th 2023",
     venue: "Mondavi Center for the Performing Arts, UC Davis",
     modalImages: [
-      
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1632623733/robertbalonek.com/BobLiveShots/IMG_D0052F784D25-1_djgna7.jpg"
     ],
   },
   {
-    tickets: "true",
+    tickets: "false",
     ticketLink: "https://secure.operasj.org/overview/tosca",
     role: "Angelotti (Scarpia Cover)",
     opera: "Tosca",
@@ -39,7 +52,19 @@ const Performances = [
     dates: "April 15-30 2023",
     venue: "California Theater, San Jose CA",
     modalImages: [
-      
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1685231126/robertbalonek.com/BobLiveShots/IMG_3B0236A307BC-1_copy_ii0rwf.jpg"
+    ],
+    reviews: [
+      {
+        Quote:
+          "Balonek sings the role with unfailing power and accuracy.",
+        From: "https://cordellreports.com/2023/04/18/tosca-opera-san-jose/",
+      },
+      {
+        Quote:
+          "Bass-baritone Robert Balonek gave a great desperate feel to the fugitive Angelotti.",
+        From: "http://operaville.blogspot.com/2023/04/making-tosca-even-edgier.html",
+      },
     ],
   },
   {
