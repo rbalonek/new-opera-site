@@ -6,9 +6,29 @@ export default function UpcomingGigs() {
   const gotToFirstEvent = () => {
     window.open("https://www.operasj.org/23-24/");
   };
-  const goToSecondEvent = () => {
-     window.open("https://www.wbopera.org/tickets");
-  };
+  // const goToSecondEvent = () => {
+  //    window.open("https://www.wbopera.org/tickets");
+  // };
+
+//   <div
+//   onClick={goToSecondEvent}
+//   className="upcoming___show-container split__2022"
+// >
+//   <img
+//     alt="Second Upcoming Event"
+//     src={WestBay}
+//   />
+//   <p>
+//     OPERA: <span className="bold">Der Fliegende Holländer</span>
+//   </p>
+//   <p>
+//     ROLE: <span className="bold">Dutchman</span>
+//   </p>
+//   <p>
+//     DATE: <span className="bold">May 26- June 4th 2023</span>
+//   </p>
+//   </div>
+  
   const goToThirdEvent = () => {
     window.open("https://mendocinomusic.org/event/festival-orchestra-2-2023/");
   };
@@ -37,24 +57,7 @@ export default function UpcomingGigs() {
           </p>
         </div>
 
-        <div
-          onClick={goToSecondEvent}
-          className="upcoming___show-container split__2022"
-        >
-          <img
-            alt="Second Upcoming Event"
-            src={WestBay}
-          />
-          <p>
-            OPERA: <span className="bold">Der Fliegende Holländer</span>
-          </p>
-          <p>
-            ROLE: <span className="bold">Dutchman</span>
-          </p>
-          <p>
-            DATE: <span className="bold">May 26- June 4th 2023</span>
-          </p>
-        </div>
+       
 
         <div
           onClick={goToThirdEvent}
