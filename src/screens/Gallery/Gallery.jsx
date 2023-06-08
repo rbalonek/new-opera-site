@@ -28,6 +28,9 @@ export default function Gallery() {
             "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145742/robertbalonek.com/BobLiveShots/Charon_hy59yl.png",
             "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145742/robertbalonek.com/BobLiveShots/Figaro_Chelsea_15_sal2gq.png",
             "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601145741/robertbalonek.com/BobLiveShots/Figaro_Chelsea_20_h3jjy1.jpg",
+            "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1685232630/robertbalonek.com/BobLiveShots/Dutchman%202023/Der_Fliegende_Holla%CC%88nderMay_24_2023-_38_wbautp.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1685232630/robertbalonek.com/BobLiveShots/Dutchman%202023/Der_Fliegende_Holla%CC%88nderMay_24_2023-_34_td0wio.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1685232642/robertbalonek.com/BobLiveShots/Dutchman%202023/Dutchman_From_Review_ye137y.jpg",
           ]}
         />
       </div>

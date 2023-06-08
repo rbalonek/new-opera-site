@@ -1,6 +1,6 @@
 const Performances = [
  {
-    tickets: "true",
+    tickets: "false",
     ticketLink: "https://www.wbopera.org/tickets",
     role: "Dutchman",
     opera: "Der Fliegende Holländer",
@@ -11,11 +11,11 @@ const Performances = [
     venue: "LUCIE STERN THEATRE Palo Alto CA",
     modalImages: [
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1685232630/robertbalonek.com/BobLiveShots/Dutchman%202023/Der_Fliegende_Holla%CC%88nderMay_24_2023-_38_wbautp.jpg",
-      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1685232632/robertbalonek.com/BobLiveShots/Dutchman%202023/Der_Fliegende_Holla%CC%88nderMay_24_2023-_203_yfbzlf.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1685232630/robertbalonek.com/BobLiveShots/Dutchman%202023/Der_Fliegende_Holla%CC%88nderMay_24_2023-_34_td0wio.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1685232642/robertbalonek.com/BobLiveShots/Dutchman%202023/Dutchman_From_Review_ye137y.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1685232632/robertbalonek.com/BobLiveShots/Dutchman%202023/Der_Fliegende_Holla%CC%88nderMay_24_2023-_203_yfbzlf.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1685232630/robertbalonek.com/BobLiveShots/Dutchman%202023/Der_Fliegende_Holla%CC%88nderMay_24_2023-_31_xsfdsf.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1685232631/robertbalonek.com/BobLiveShots/Dutchman%202023/Der_Fliegende_Holla%CC%88nderMay_24_2023-_194_wmx84f.jpg",
-      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1685232630/robertbalonek.com/BobLiveShots/Dutchman%202023/Der_Fliegende_Holla%CC%88nderMay_24_2023-_34_td0wio.jpg",
       "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1679178341/robertbalonek.com/Logos/Dutchman_cbzpca.jpg"
     ],
     reviews: [
@@ -23,6 +23,11 @@ const Performances = [
         Quote:
           "From his opening, deeply profound notes of baritone, Robert Balonek as the Dutchman commands the stage.  As he mournfully sings of his eternal doom, his own frustration bellows forth that no matter how much he has tried – purposeful wrecks on rocky shores or intentional battles with pirates – “Death I found not.”  Ghostly is his appearance with wide-opened eyes that stare vacantly off into some unseen horizon.  As he continues to scorn his life of no death, his intoned notes shake from the depths of his tortured soul, leading to a pleading for God’s salvation in a voice so accordantly impressive, it is impossible not to think his prayer must be heard in the great above.  With notes shuddering in their own dread and with a volume that near shakes the stage, he sings, “When all the dead rise, then I’ll fade into nothing … Eternal destruction, take me!”",
         From: "https://theatreeddys.com/2023/05/the-flying-dutchman.html",
+      },
+      {
+        Quote:
+          '“Many stage offerings demand a dominant and charismatic performance from the central character to succeed, and this is no exception.  Even with this expectation in mind, the audience at opening night was blown away by Robert Balonek’s role debut performance as The Dutchman.  His 10-minute opening soliloquy “Die frist ist um” (“The time is up”) was delivered with such high-wire potency that one wondered how he could sustain the performance.  Even at full volume, he retains uncommonly crisp melodiousness and clarity of diction.  This, despite having to cover the Wagnerian bass-baritone range and tonal variety which he accomplishes with great agility. In answer to more intimate moments, he demonstrates another gear with a mournful, more cloaked vocalization.  Incidentally, he did maintain his vocal and emotional intensity throughout to give a remarkable performance."',
+        From: " https://cordellreports.com/"        
       },
     ],
   },
