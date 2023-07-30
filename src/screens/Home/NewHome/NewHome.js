@@ -12,6 +12,7 @@ export default function NewHome() {
         Images={[
           "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1634747678/robertbalonek.com/HomeCarousel/OperaNewsBanner_zjhamu.jpg",
           "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1665855544/robertbalonek.com/HomeCarousel/Rig_Banner_zrdjqq.png",
+          "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1690677795/robertbalonek.com/HomeCarousel/Dutchman_Banner_jjxiod.png",
           "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1635467636/robertbalonek.com/HomeCarousel/OwenShorter_f9rml3.png",
           "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1634747682/robertbalonek.com/HomeCarousel/Prospero_Banner_ivovxb.jpg",
           "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1635467337/robertbalonek.com/HomeCarousel/figaroShorterBanner_m3ld7s.png",
