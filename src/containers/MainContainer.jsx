@@ -8,6 +8,7 @@ import Media from "../screens/Media/Media";
 import Gallery from "../screens/Gallery/Gallery";
 import Contact from "../screens/Contact/Contact";
 import NewHome from "../screens/Home/NewHome/NewHome";
+import Books from "../screens/Books/Books";
 
 export default function MainContainer(props) {
   return (
@@ -30,6 +31,10 @@ export default function MainContainer(props) {
 
       <Route path="/contact">
         <Contact />
+      </Route>
+
+      <Route path="/books">
+        <Books />
       </Route>
 
       <Route path="/">

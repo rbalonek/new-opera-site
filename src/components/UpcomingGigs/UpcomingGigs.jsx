@@ -1,37 +1,16 @@
 import React from "react";
 import "./UpcomingGigs.css";
-import WestBay from "../images/Logos/WBO.webp"
+// import WestBay from "../images/Logos/WBO.webp"
  
 export default function UpcomingGigs() {
   const gotToFirstEvent = () => {
     window.open("https://www.operasj.org/23-24/");
   };
-  // const goToSecondEvent = () => {
-  //    window.open("https://www.wbopera.org/tickets");
-  // };
-
-//   <div
-//   onClick={goToSecondEvent}
-//   className="upcoming___show-container split__2022"
-// >
-//   <img
-//     alt="Second Upcoming Event"
-//     src={WestBay}
-//   />
-//   <p>
-//     OPERA: <span className="bold">Der Fliegende Holländer</span>
-//   </p>
-//   <p>
-//     ROLE: <span className="bold">Dutchman</span>
-//   </p>
-//   <p>
-//     DATE: <span className="bold">May 26- June 4th 2023</span>
-//   </p>
-//   </div>
-  
-  const goToThirdEvent = () => {
-    window.open("https://mendocinomusic.org/event/festival-orchestra-2-2023/");
+  const goToSecondEvent = () => {
+     window.open("https://www.operamodesto.org/2021-2022-season-2/");
   };
+  
+
 
   return (
     <div className="upcoming__container">
@@ -47,36 +26,36 @@ export default function UpcomingGigs() {
             src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1659296557/robertbalonek.com/Logos/Screen_Shot_2022-07-31_at_12.41.41_PM_v5dhbl.png"
           />
           <p>
-            OPERA: <span className="bold">Roméo et Juliette</span>
+            OPERA: <span className="bold">Rigoletto</span>
           </p>
           <p>
-            ROLE: <span className="bold">Count Capulet</span>
+            ROLE: <span className="bold">Rigoletto</span>
           </p>
           <p>
-            DATE: <span className="bold">September 2023</span>
+            DATE: <span className="bold">* February 18, 2024 2:00PM</span>
           </p>
         </div>
-
-       
 
         <div
-          onClick={goToThirdEvent}
-          className="upcoming___show-container split__2022"
-        >
-          <img
-            alt="Third Upcoming Event"
-            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1685230486/MMF-Logo-black-gold_200x146_lqmktr.png"
-          />
-          <p>
-            OPERA: <span className="bold">Barber Of Seville</span>
-          </p>
-          <p>
-            ROLE: <span className="bold">Figaro</span>
-          </p>
-          <p>
-            DATE: <span className="bold">July 21, 7:30 PM  2023</span>
-          </p>
-        </div>
+        onClick={goToSecondEvent}
+        className="upcoming___show-container split__2022"
+      >
+        <img
+          alt="First Upcoming Event"
+          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624394360/robertbalonek.com/Logos/OperaModesto_tggc0y.jpg"
+        />
+        <p>
+          OPERA: <span className="bold">Tosca</span>
+        </p>
+        <p>
+          ROLE: <span className="bold">Scarpia</span>
+        </p>
+        <p>
+          DATE: <span className="bold">April 28 2024</span>
+        </p>
+      </div>
+
+        
         
       </div>
     </div>

@@ -1,4 +1,77 @@
 const Performances = [
+
+  {
+    tickets: "true",
+    ticketLink: "https://secure.operasj.org/rigoletto/444?utm_source=robertbalonek",
+    role: "Rigoletto",
+    opera: "Rigoletto",
+    composer: "Verdi",
+    company: "Opera San Jose",
+    logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1659296557/robertbalonek.com/Logos/Screen_Shot_2022-07-31_at_12.41.41_PM_v5dhbl.png",
+    dates: "Sun, February 18, 2024 2PM",
+    venue: "California Theater, San Jose CA",
+    modalImages: [
+      "",
+    ],
+    reviews: [
+      {
+        Quote:
+          "",
+        From: "",
+      },
+    ],
+  },
+  {
+    tickets: "true",
+    ticketLink: "https://www.operamodesto.org/2021-2022-season-2/",
+    role: "Scarpia",
+    opera: "Tosca",
+    composer: "Puccini",
+    company: "Opera Modesto",
+    logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624394360/robertbalonek.com/Logos/OperaModesto_tggc0y.jpg",
+    dates: "Sept 9-24 2023",
+    venue: "Gallo Center for the Arts, Modesto CA",
+    modalImages: [
+      "",
+    ],
+    reviews: [
+      {
+        Quote:
+          "",
+        From: "",
+      },
+    ],
+  },
+  {
+    tickets: "false",
+    ticketLink: "https://www.wbopera.org/tickets",
+    role: "Father Capulet",
+    opera: "Romeo et Juliette",
+    composer: "Gounod",
+    company: "Opera San Jose",
+    logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1659296557/robertbalonek.com/Logos/Screen_Shot_2022-07-31_at_12.41.41_PM_v5dhbl.png",
+    dates: "Sept 9-24 2023",
+    venue: "California Theater, San Jose CA",
+    modalImages: [
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1699120676/robertbalonek.com/Performances/Romeo%20Et%20Juliette%202023/IMG_0357_ubj0gt.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1699120676/robertbalonek.com/Performances/Romeo%20Et%20Juliette%202023/IMG_1250_be1mj7.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1699120812/robertbalonek.com/Performances/Romeo%20Et%20Juliette%202023/IMG_0326_cpgdnx.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1699120813/robertbalonek.com/Performances/Romeo%20Et%20Juliette%202023/IMG_4857_wfkrz0.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1699120675/robertbalonek.com/Performances/Romeo%20Et%20Juliette%202023/IMG_1827_phhdhy.jpg",
+    ],
+    reviews: [
+      {
+        Quote:
+          "Robert Balonek as Count Capulet once again demonstrates an uncommonly powerful and well-tuned instrument and acting skill that transitions from ebullient to grim over the course of the drama.",
+        From: "Cordell Reports https://cordellreports.com/2023/09/11/romeo-and-juliet-gounods-opera/",
+      },
+      {
+        Quote:
+          'baritone Robert Balonek was a ostentatious Count Capulet',
+        From: " https://cordellreports.com/"        
+      },
+    ],
+  },
  {
     tickets: "false",
     ticketLink: "https://www.wbopera.org/tickets",
