@@ -1,0 +1,40 @@
+.books-container{
+  color: white;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  align-items: center;
+
+}
+.book-holder{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+max-width: 300px;
+width: 80%;
+}
+.book-cover{
+  width: 100%;
+}
+.books-logo{
+  width: 90%;
+  border: 15px white solid;
+  /* height: ; */
+  background-color: white;
+  border-radius: 2%;
+  cursor: pointer;
+  opacity: .9;
+}
+.books-logo:hover{
+  /* height: ; */
+  opacity: 1;
+  /* border: 15px  solid rgb(193, 102, 102); */
+}
+@media (max-width:800px) {
+  .books-container{
+   flex-direction: column;
+    margin-bottom: 30vh;
+  }
+}
