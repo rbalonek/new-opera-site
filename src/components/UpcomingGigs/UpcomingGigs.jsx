@@ -19,7 +19,18 @@ export default function UpcomingGigs() {
     <div className="upcoming__container">
       <h1>UPCOMING</h1>
       <div onClick={goToFig} className="long-banner-div">
-        <img   style={{width:"30%", height:'auto'}} src={Nozze} alt="Figaro-banner" />
+        <img style={{ width: "50%", height: 'auto' }} src={Nozze} alt="Figaro-banner" />
+        <div style={{display:'flex', flexDirection:'column'}}>
+        <p>
+        OPERA: <span className="bold">Le Nozze di Figaro</span>
+        </p>
+        <p>
+        ROLE: <span className="bold">Figaro</span>
+        </p>
+        <p>
+        DATE: <span className="bold">March 22nd & 24th</span>
+        </p>
+        </div>
       </div>
       <div className="twentyTwo-shows">
         <div

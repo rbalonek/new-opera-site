@@ -27,7 +27,7 @@
 .long-banner-div{
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   cursor: pointer;
 }
@@ -49,6 +49,9 @@
 }
 
 @media (max-width: 450px) {
+  .long-banner-div{
+    flex-direction: column;
+  }
   .twentyTwo-shows {
     display: flex;
     flex-wrap: wrap;
