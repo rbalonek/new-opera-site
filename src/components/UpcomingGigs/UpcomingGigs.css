@@ -24,7 +24,16 @@
 .split__2022 {
   width: 45%;
 }
-
+.long-banner-div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.long-banner-div:hover{
+  background-color: red;
+}
 .upcoming___show-container:hover {
   background-color: red;
   cursor: pointer;
