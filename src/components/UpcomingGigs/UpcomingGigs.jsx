@@ -1,6 +1,7 @@
 import React from "react";
 import "./UpcomingGigs.css";
 // import WestBay from "../images/Logos/WBO.webp"
+import Nozze from "../images/other/Nozze.webp"
  
 export default function UpcomingGigs() {
   const gotToFirstEvent = () => {
@@ -9,13 +10,17 @@ export default function UpcomingGigs() {
   const goToSecondEvent = () => {
      window.open("https://www.operamodesto.org/2021-2022-season-2/");
   };
-  
+  const goToFig = () => {
+    window.open("https://www.piedmontopera.org/marriage-of-figaro?utm_campaign=from-bob-balonek");
+ };
 
 
   return (
     <div className="upcoming__container">
       <h1>UPCOMING</h1>
-    
+      <div onClick={goToFig} className="long-banner-div">
+        <img   style={{width:"30%", height:'auto'}} src={Nozze} alt="Figaro-banner" />
+      </div>
       <div className="twentyTwo-shows">
         <div
           onClick={gotToFirstEvent}

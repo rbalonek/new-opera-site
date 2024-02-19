@@ -28,11 +28,30 @@ export default function AudioPlayerComp(props) {
   const handleClickSong = ( songNum) => {
     setTrackNum(songNum)
   }
+  
   const handleStartPlayer = () => {
-    window.dataLayer.push({
-      event: 'start_player'
+    const currentDate = new Date();
+    const formattedDate = currentDate.toLocaleString('en-US', {
+        weekday: 'long',
+        month: 'long',
+        day: 'numeric',
+        year: 'numeric',
+        hour: 'numeric',
+        minute: 'numeric',
+        hour12: true
     });
-  };
+
+    setTimeout(() => {
+        window.dataLayer.push({
+            event: 'players_gonna_play',
+            songName: thePlaylist[trackNum].title,
+            date: formattedDate,
+        });
+    }, 1000);
+};
+
+  
+
   return (
     <div className='audio-player__container'>
       <h4 onClick={props.toggleClick } className='shrink-btn'>-</h4>
