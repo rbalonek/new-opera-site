@@ -4,6 +4,9 @@ import "./AudioPlayer.css";
 import ReactAudioPlayer from "react-audio-player";
 
 export default function AudioPlayer(props) {
+
+
+  
   return (
     <div className="audio-player__container">
       <div className="audio-player__info">
@@ -20,6 +23,7 @@ export default function AudioPlayer(props) {
               className="player"
               src={props.URL}
               controls
+              
             />
           </div>
         </div>
