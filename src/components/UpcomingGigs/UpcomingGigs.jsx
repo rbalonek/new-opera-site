@@ -29,6 +29,9 @@ export default function UpcomingGigs() {
         </p>
         <p>
         DATE: <span className="bold">March 22nd & 24th</span>
+          </p>
+          <p>
+        Company: <span className="bold">Piedmont Opera</span>
         </p>
         </div>
       </div>
