@@ -9,58 +9,24 @@ export default function About() {
           <h1>What about Bob?</h1>
           <br />
           <p>
-            Hailing from Rochester NY, Robert always had a love for music. While
-            learning music theory, jazz and musical theater in high school, he
-            knew that his life would be surrounded by music.
+          Praised by the NY Times as having a “Commanding, steely baritone and a direct, crystal-clear delivery” and by the Winston-Salem journal, “Balonek, who might well be the most acrobatic opera singer I have ever seen. His antics are dazzling, and his voice is, too.”
           </p>
           <p style={{ color: "red" }}>
-            Robert went to SUNY Purchase College in Westchester where he started
-            training with his first teacher, Jacque Trussel.﻿ During this time
-            he performed The title roles in Le Nozze di Figaro, and Gianni
-            Schicchi. He also performed Ottone in Poppea, both Ferdinand and
-            Prospero in the NY Premiere of Lee Hoiby's The Tempest, as well as
-            the world Premiere of Raphaël Lucas' Confession. Before leaving
-            Purchase, he recorded both The Tempest and Confession with Albany
-            Records. The recordings can be found here:
-            <br />
-            <br />
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.albanyrecords.com/mm5/merchant.mvc?Screen=PROD&Product_Code=TROY1106-07&Store_Code=AR&search=balonek&offset=&filter_cat=2&PowerSearch_Begin_Only=&sort=&range_low=&range_high="
-            >
-              <span style={{ color: "red" }}> Tempest </span>
-            </a>
-            <br />
-            <br />
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.albanyrecords.com/mm5/merchant.mvc?Screen=PROD&Product_Code=TROY1306&Store_Code=AR&search=balonek&offset=&filter_cat=2&PowerSearch_Begin_Only=&sort=&range_low=&range_high="
-            >
-              <span style={{ color: "red" }}>Confession</span>
-            </a>
+          Robert is extremely versatile in his acting, dancing, and singing. He has performed everything from bass-baritone Oratorio such as the Creation Mass (Haydn), Saul (Handel), Carmina Burana (Orff), to lyric baritone roles such as Silvio (Pagliacci) and Figaro (Il Barbiere di Siviglia) to Verdi’s Rigoletto, Ford (Falstaff) and Scarpia (Tosca) throughout the US.
+            
           </p>
           <p>
-            After Purchase, Robert moved to Manhattan where he received a
-            professional studies diploma from Mannes School of Music under the
-            tutelage of Bonnie Hammilton. During his two years there, Robert
-            performed Guglielmo in Cosi Fan Tutte as well as ​Ford in Falstaff.
-            He also performed with the Mannes Baroque Ensemble as the bass
-            soloist for the Bach's St. Matthew Passion as well as the Fauré
-            Requiem soloist for the Westchester Choral Society. ﻿
+          This season, he is the title role in Opera San Jose’s first Sunday Matinee of Rigoletto, Father Capulet in Opera San Jose’s Romeo Et Juliette, and also as Figaro in Piedmont Opera’s Le Nozze di Figaro.
           </p>
           <p style={{ color: "red" }}>
-            After College, Robert has been in collaboration with many new
-            composers such as Zachary Johnson (Boston Tea Party Opera) Gerald
-            Cohen (Steal A Pencil For Me), Mohammed Fairouz (Furia), and Stefnia
-            DeKenessey (Bonfires of the Vanity).
+          Recent performances include the title roles in Rigoletto (Opera San Jose / BOONJ), The Flying Dutchman ( West Bay Opera ) Britten’s Owen Wingrave (LOTNY),Barber of Seville ( OOTJ,BMO, Mendocino Music Fest), and Gianni Schicchi ( Purchase PAC ).
+
           </p>
 
           <p>
-            Due to Covid19, Robert's Carnegie Hall debut of the Five Mystycal
-            Songs (Vaughan Williams) was cancelled. He is looking forward to
-            completing his 2021-2022 season when the dates are solidified.
+          He has also performed with Opera Modesto ( Marcello, La Boheme ) ,Opera San Jose ( Angelotti, Tosca & Father Capulet, Romeo Et Juliette),  American Classical Orchestra (Charon in Handel’s Alceste & Blondel in Handel’s Richard Core de Lion ), SDSO (Max / Captain, Candide), NYCO, Piedmont Opera, & SDSO (Schaunard, La Boheme), NYOC (Guglielmo, Cosi fan Tutte) NYVP ( Silvio, Pagliacci) Utopia Opera (Ford, Falstaff).
+
+          Concert work includes Canterbury Choral Society: Saul (Handel), Historicus in Oratorio di San Francesco  (Ariani), and Soloist in Sancta Civitas & Dona Nobis Pacem (Vaughn Williams). Queens Symphony: Narrator in & Haydn's Creation Mass and soloist in Handel’s Messiah
           </p>
         </div>
         <div className="about__image-holder">
@@ -71,6 +37,22 @@ export default function About() {
           />
         </div>
       </div>
+      <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.albanyrecords.com/mm5/merchant.mvc?Screen=PROD&Product_Code=TROY1106-07&Store_Code=AR&search=balonek&offset=&filter_cat=2&PowerSearch_Begin_Only=&sort=&range_low=&range_high="
+            >
+              <span style={{ color: "red" }}> Albany Records: Lee Hoiby's Tempest </span>
+            </a>
+            <br />
+            <br />
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.albanyrecords.com/mm5/merchant.mvc?Screen=PROD&Product_Code=TROY1306&Store_Code=AR&search=balonek&offset=&filter_cat=2&PowerSearch_Begin_Only=&sort=&range_low=&range_high="
+            >
+              <span style={{ color: "red" }}>Albany Records: Raphael Lucas' Confession</span>
+            </a>
     </div>
   );
 }
