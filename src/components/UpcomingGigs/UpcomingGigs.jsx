@@ -5,33 +5,33 @@ import Nozze from "../images/other/Nozze.webp"
  
 export default function UpcomingGigs() {
   const gotToFirstEvent = () => {
-    window.open("https://www.operasj.org/23-24/");
+    window.open("https://www.operamodesto.org/");
   };
   const goToSecondEvent = () => {
-     window.open("https://www.operamodesto.org/2021-2022-season-2/");
+     window.open("https://www.operaonthejames.org/");
   };
-  const goToFig = () => {
-    window.open("https://www.piedmontopera.org/marriage-of-figaro?utm_campaign=from-bob-balonek");
+  const goToTosca = () => {
+    window.open("https://tickets.galloarts.org/9518/9540");
  };
 
 
   return (
     <div className="upcoming__container">
       <h1>UPCOMING</h1>
-      <div onClick={goToFig} className="long-banner-div">
-        <img style={{ width: "50%", height: 'auto' }} src={Nozze} alt="Figaro-banner" />
+      <div onClick={goToTosca} className="long-banner-div">
+        <img style={{ width: "15%", height: 'auto' }} src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624394360/robertbalonek.com/Logos/OperaModesto_tggc0y.jpg" alt="Figaro-banner" />
         <div style={{display:'flex', flexDirection:'column'}}>
         <p>
-        OPERA: <span className="bold">Le Nozze di Figaro</span>
+        OPERA: <span className="bold">Tosca</span>
         </p>
         <p>
-        ROLE: <span className="bold">Figaro</span>
+        ROLE: <span className="bold">Scarpia</span>
         </p>
         <p>
-        DATE: <span className="bold">March 22nd & 24th</span>
+        DATE: <span className="bold">April 28 2024</span>
           </p>
           <p>
-        Company: <span className="bold">Piedmont Opera</span>
+        Company: <span className="bold">Opera Modesto</span>
         </p>
         </div>
       </div>
@@ -42,16 +42,16 @@ export default function UpcomingGigs() {
         >
           <img
             alt="First Upcoming Event"
-            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1659296557/robertbalonek.com/Logos/Screen_Shot_2022-07-31_at_12.41.41_PM_v5dhbl.png"
+            src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624394360/robertbalonek.com/Logos/OperaModesto_tggc0y.jpg"
           />
           <p>
-            OPERA: <span className="bold">Rigoletto</span>
+            OPERA: <span className="bold">Le Nozze di Figaro</span>
           </p>
           <p>
-            ROLE: <span className="bold">Rigoletto</span>
+            ROLE: <span className="bold">Count Almaviva</span>
           </p>
           <p>
-            DATE: <span className="bold">* February 18, 2024 2:00PM</span>
+            DATE: <span className="bold">September 2024</span>
           </p>
         </div>
 
@@ -61,16 +61,16 @@ export default function UpcomingGigs() {
       >
         <img
           alt="First Upcoming Event"
-          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624394360/robertbalonek.com/Logos/OperaModesto_tggc0y.jpg"
+          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624389679/robertbalonek.com/Performances/OOTJ%20Figaro/OOTJ_l2gjb0.webp"
         />
         <p>
-          OPERA: <span className="bold">Tosca</span>
+          OPERA: <span className="bold">La Boheme</span>
         </p>
         <p>
-          ROLE: <span className="bold">Scarpia</span>
+          ROLE: <span className="bold">Marcello</span>
         </p>
         <p>
-          DATE: <span className="bold">April 28 2024</span>
+          DATE: <span className="bold">November 2024</span>
         </p>
       </div>
 
