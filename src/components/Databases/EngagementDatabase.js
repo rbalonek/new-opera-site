@@ -1,7 +1,7 @@
 const Performances = [
   {
     tickets: "true",
-    ticketLink: "https://www.operamodesto.org",
+    ticketLink: "https://www.operaonthejames.org",
     role: "Marcello",
     opera: "La Boheme",
     composer: "Puccini",
