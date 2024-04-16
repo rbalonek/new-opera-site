@@ -1,15 +1,35 @@
 const Performances = [
-
   {
     tickets: "true",
-    ticketLink: "https://secure.operasj.org/rigoletto/444?utm_source=robertbalonek",
-    role: "Rigoletto",
-    opera: "Rigoletto",
-    composer: "Verdi",
-    company: "Opera San Jose",
-    logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1659296557/robertbalonek.com/Logos/Screen_Shot_2022-07-31_at_12.41.41_PM_v5dhbl.png",
-    dates: "Sun, February 18, 2024 2PM",
-    venue: "California Theater, San Jose CA",
+    ticketLink: "https://www.operamodesto.org",
+    role: "Marcello",
+    opera: "La Boheme",
+    composer: "Puccini",
+    company: "Opera on the James",
+    logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624389679/robertbalonek.com/Performances/OOTJ%20Figaro/OOTJ_l2gjb0.webp",
+    dates: "November 2024",
+    venue: "Historic Academy Theater, Lynchburg VA",
+    modalImages: [
+      "",
+    ],
+    reviews: [
+      {
+        Quote:
+          "",
+        From: "",
+      },
+    ],
+  },
+  {
+    tickets: "true",
+    ticketLink: "https://www.operamodesto.org",
+    role: "Count Almaviva",
+    opera: "Le Nozze di Figaro",
+    composer: "Puccini",
+    company: "Opera Modesto",
+    logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1624394360/robertbalonek.com/Logos/OperaModesto_tggc0y.jpg",
+    dates: "Sept 2024",
+    venue: "Gallo Center for the Arts, Modesto CA",
     modalImages: [
       "",
     ],
@@ -39,6 +59,57 @@ const Performances = [
         Quote:
           "",
         From: "",
+      },
+    ],
+  },
+  {
+    tickets: "false",
+    ticketLink: "https://secure.operasj.org/rigoletto/444?utm_source=robertbalonek",
+    role: "Figaro",
+    opera: "Le Nozze di Figaro",
+    composer: "Mozart",
+    company: "Piedmont Opera",
+    logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601221292/PiedmontOpera.png",
+    dates: "March 22-24",
+    venue: "High Point Theater",
+    modalImages: [
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1713296255/robertbalonek.com/BobLiveShots/Figaro%202024%20Piedmont/IMG_1316_xt7t85.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1713296225/robertbalonek.com/BobLiveShots/Figaro%202024%20Piedmont/IMG_1221_hfhlmv.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1713296244/robertbalonek.com/BobLiveShots/Figaro%202024%20Piedmont/IMG_1256_li4edj.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1713296254/robertbalonek.com/BobLiveShots/Figaro%202024%20Piedmont/IMG_1588_n7pflj.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1713296671/robertbalonek.com/BobLiveShots/Figaro%202024%20Piedmont/IMG_2132_nxzhqi.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1713296908/robertbalonek.com/BobLiveShots/Figaro%202024%20Piedmont/IMG_2294_rcc0pl.jpg",
+    ],
+    reviews: [
+      {
+        Quote:
+          "",
+        From: "",
+      },
+    ],
+  },
+  {
+    tickets: "false",
+    ticketLink: "https://secure.operasj.org/rigoletto/444?utm_source=robertbalonek",
+    role: "Rigoletto",
+    opera: "Rigoletto",
+    composer: "Verdi",
+    company: "Opera San Jose",
+    logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1659296557/robertbalonek.com/Logos/Screen_Shot_2022-07-31_at_12.41.41_PM_v5dhbl.png",
+    dates: "Sun, February 18, 2024 2PM",
+    venue: "California Theater, San Jose CA",
+    modalImages: [
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1713297118/robertbalonek.com/BobLiveShots/Rigoletto%202024%20OSJ/IMG_1294_gb8h09.png",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1713297363/robertbalonek.com/BobLiveShots/Rigoletto%202024%20OSJ/IMG_1277_s0yyok.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1713297360/robertbalonek.com/BobLiveShots/Rigoletto%202024%20OSJ/IMG_5495_g7zkrv.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1713297094/robertbalonek.com/BobLiveShots/Rigoletto%202024%20OSJ/IMG_1296_berxoe.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1713297365/robertbalonek.com/BobLiveShots/Rigoletto%202024%20OSJ/IMG_1278_o20cj0.jpg",
+    ],
+    reviews: [
+      {
+        Quote:
+          "Robert Balonek (Rigoletto) sang his part as if it were the chance of a lifetime to sing the role of a lifetime, and his performance reflected that. The staging called for a great deal of physicality from his character in particular, but he never seemed out of breath or tired.",
+        From: "https://www.reddit.com/r/opera/comments/1av60m0/review_rigoletto_opera_san_jose_21824/",
       },
     ],
   },
