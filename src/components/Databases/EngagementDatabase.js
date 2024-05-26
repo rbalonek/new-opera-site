@@ -1,6 +1,27 @@
 const Performances = [
   {
     tickets: "true",
+    ticketLink: "https://www.auburnsymphony.com/",
+    role: "Tonio",
+    opera: "Pagliacci",
+    composer: "Leoncavallo",
+    company: "Auburn Symphony",
+    logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1659297756/robertbalonek.com/Logos/Screen_Shot_2022-07-31_at_1.01.59_PM_tz3qia.png",
+    dates: "March 8th 6PM & March 9th 3PM 2025",
+    venue: "",
+    modalImages: [
+      "",
+    ],
+    reviews: [
+      {
+        Quote:
+          "",
+        From: "",
+      },
+    ],
+  },
+  {
+    tickets: "true",
     ticketLink: "https://www.operaonthejames.org",
     role: "Marcello",
     opera: "La Boheme",
@@ -42,7 +63,7 @@ const Performances = [
     ],
   },
   {
-    tickets: "true",
+    tickets: "false",
     ticketLink: "https://www.operamodesto.org/2021-2022-season-2/",
     role: "Scarpia",
     opera: "Tosca",
@@ -52,13 +73,21 @@ const Performances = [
     dates: "Sept 9-24 2023",
     venue: "Gallo Center for the Arts, Modesto CA",
     modalImages: [
-      "",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1716749386/robertbalonek.com/Performances/Modesto%20Tosca%202024/IMG_1682_j6jfvm.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1716749386/robertbalonek.com/Performances/Modesto%20Tosca%202024/IMG_1681_gvs2pp.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1716749387/robertbalonek.com/Performances/Modesto%20Tosca%202024/IMG_1677_nlvenl.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1716749384/robertbalonek.com/Performances/Modesto%20Tosca%202024/Te_Deum_Full_Company_hpoumc.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1716749383/robertbalonek.com/Performances/Modesto%20Tosca%202024/IMG_1672_crlrm6.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1716749382/robertbalonek.com/Performances/Modesto%20Tosca%202024/IMG_1684_eauylm.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1716749387/robertbalonek.com/Performances/Modesto%20Tosca%202024/IMG_1677_nlvenl.jpg",
+
+
     ],
     reviews: [
       {
         Quote:
-          "",
-        From: "",
+          "nearly 100 chorus members from the childrens chorus, Modesto Junior College music students, and community members filled trhe oversized stage of the Rodgers Theater in the Gallo Center for the Arts. But even with all that volume and a fukll orchestra, the communal sound could not compare to the booming baritone voice of Robert Balonek... Balonek presented his villainy so effectively that the audience cheered at his death at the hand of Tosca",
+        From: "Kathryn Anne Casey, Chronicle & Dispatch",
       },
     ],
   },

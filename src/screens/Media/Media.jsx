@@ -7,7 +7,17 @@ export default function Media(props) {
       
         <div className="video__section">
 
-          <iframe
+        <iframe
+        className="media__video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/ZPc-H7vKVC0" 
+          title="Scarpia - Te Deum"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen /> 
+        
+        <iframe
           className="media__video"
             width="560"
             height="315"
