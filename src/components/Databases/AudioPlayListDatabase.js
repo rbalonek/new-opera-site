@@ -22,13 +22,13 @@ const AudioPlayList = [
     img: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1670105875/robertbalonek.com/Avatars/IMG_6658_f4dszr.jpg",
   },
   {
-    title: "La Boheme",
+    title: "La Boheme Marcello",
     role: "Marcello",
     URL:  Marcello,
     img: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1670105872/robertbalonek.com/Avatars/IMG_6638_rq72sn.jpg",
   },
   {
-    title: "La Boheme",
+    title: "La Boheme Shaunard",
     role: "Shaunard",
     URL:  Shaunard,
     img: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1601221847/robertbalonek.com/BobLiveShots/IMG_2592.JPG_pqvtap.jpg",
