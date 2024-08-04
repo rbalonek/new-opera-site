@@ -28,6 +28,9 @@ export default function About() {
 
           Concert work includes Canterbury Choral Society: Saul (Handel), Historicus in Oratorio di San Francesco  (Ariani), and Soloist in Sancta Civitas & Dona Nobis Pacem (Vaughn Williams). Queens Symphony: Narrator in & Haydn's Creation Mass and soloist in Handel’s Messiah
           </p>
+          <p style={{ color: "white" }}>
+        Robert is currently performing locally in the Bay Area currently residing in Santa Rosa, California. He often sings in Opera Modesto, Opera San Jose, Lake Tahoe, Sacramento, and the surrounding Bay Area. 
+          </p>
         </div>
         <div className="about__image-holder">
           <img
@@ -36,6 +39,7 @@ export default function About() {
             alt="headshot-about"
           />
         </div>
+        
       </div>
       <a
               target="_blank"
@@ -52,7 +56,8 @@ export default function About() {
               href="https://www.albanyrecords.com/mm5/merchant.mvc?Screen=PROD&Product_Code=TROY1306&Store_Code=AR&search=balonek&offset=&filter_cat=2&PowerSearch_Begin_Only=&sort=&range_low=&range_high="
             >
               <span style={{ color: "red" }}>Albany Records: Raphael Lucas' Confession</span>
-            </a>
+      </a>
+      
     </div>
   );
 }

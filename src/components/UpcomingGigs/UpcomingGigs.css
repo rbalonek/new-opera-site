@@ -49,6 +49,10 @@
 }
 
 @media (max-width: 450px) {
+  .upcoming__container img{
+  height: auto;
+  width: 100%;
+  }
   .long-banner-div{
     flex-direction: column;
   }
