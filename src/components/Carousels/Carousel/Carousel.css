@@ -8,10 +8,10 @@
 
 @media (max-width: 500px) {
   .carousel {
-    height: 180px;
+    height: 200px;
     width: auto;
   }
   .carousel__image {
-    height: 180px;
+    height: 200px;
   }
 }
