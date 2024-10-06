@@ -68,6 +68,15 @@ export default function NavBar() {
             </p>
             <p
               onClick={() => {
+                history.push("/books");
+                window.scroll(0, 0);
+                setToggle(!toggle);
+              }}
+            >
+              Book
+            </p>
+            <p
+              onClick={() => {
                 history.push("/contact");
                 window.scroll(0, 0);
                 setToggle(!toggle);
@@ -123,6 +132,14 @@ export default function NavBar() {
         >
           Gallery
         </p>
+        <p
+              onClick={() => {
+                history.push("/books");
+                window.scroll(0, 0);
+              }}
+            >
+              Book
+            </p>
         <p
           onClick={() => {
             window.scroll(0, 0);

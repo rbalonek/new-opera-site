@@ -1,5 +1,6 @@
 import React from "react";
 import "./Gallery.css";
+import { Helmet } from "react-helmet";
 
 
 import CarouselGallery from "../../components/Carousels/GalleryCarousel/GalleryCarousel";
@@ -8,6 +9,15 @@ export default function Gallery() {
  
   return (
     <div className="gallery__container">
+    <Helmet>
+    <title>Gallery - Robert Balonek - Bay Area Baritone</title>
+    <meta name="description" content="Learn more about Robert Balonek, a Bay Area Baritone specializing in Verdi Baritone roles, Rigoletto, Iago, Scarpia" />
+        <meta name="keywords" content="Robert Balonek, Bay Area Baritone, Verdi Baritone, Baritone, Opera, Classical Singer, Figaro, Oratorio, Scarpia, Iago, Rigoletto" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Robert Balonek" />
+        <meta name="publisher" content="Robert Balonek " />
+        <link rel="canonical" href="https://www.robertbalonek.com/gallery" />
+  </Helmet>
       <h1>Live Photos</h1>
       <div className="gallery__carousel-holder">
         <CarouselGallery

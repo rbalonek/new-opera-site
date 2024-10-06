@@ -1,3 +1,12 @@
+.books-page-container{
+  margin-top: 50px;
+  color: white;
+  align-items: center;
+  padding-bottom: 8%;
+}
+.books-text__cointainer{
+padding: 2%;
+}
 .books-container{
   color: white;
   display: flex;
@@ -5,6 +14,10 @@
   justify-content: space-around;
   align-items: center;
 
+}
+.bold-text{
+  font-weight: 800;
+  color: red;
 }
 .book-holder{
 display: flex;
@@ -21,7 +34,6 @@ width: 80%;
 .books-logo{
   width: 90%;
   border: 15px white solid;
-  /* height: ; */
   background-color: white;
   border-radius: 2%;
   cursor: pointer;

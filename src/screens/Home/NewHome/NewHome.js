@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import CarouselHome from "../../../components/Carousels/Carousel/Carousel";
 import UpcomingGigs from "../../../components/UpcomingGigs/UpcomingGigs";
 
@@ -8,6 +9,16 @@ export default function NewHome() {
 
   return (
     <div className="newHome__conainer">
+      <Helmet>
+        <title>Robert Balonek - Bay Area Baritone</title>
+        <meta name="description" content="Robert Balonek is a Bay Area Baritone specializing in Verdi Baritone roles, classical singing, and opera. Known for performances as Figaro, Scarpia, Iago, Rigoletto, and more." />
+        <meta name="keywords" content="Robert Balonek, Bay Area Baritone, Verdi Baritone, Baritone, Opera, Classical Singer, Figaro, Oratorio, Scarpia, Iago, Rigoletto" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Robert Balonek" />
+        <meta name="publisher" content="Robert Balonek " />
+        <link rel="canonical" href="https://www.robertbalonek.com/" />
+      </Helmet>
+
       <CarouselHome
         Images={[
           "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1634747678/robertbalonek.com/HomeCarousel/OperaNewsBanner_zjhamu.jpg",
