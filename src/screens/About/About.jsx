@@ -1,9 +1,20 @@
 import React from "react";
 import "./About.css";
 
+import { Helmet } from "react-helmet";
+
 export default function About() {
   return (
     <div className="about__container">
+    <Helmet>
+    <title>About Robert Balonek - Bay Area Baritone</title>
+    <meta name="description" content="Learn more about Robert Balonek, a Bay Area Baritone specializing in Verdi Baritone roles, Rigoletto, Iago, Scarpia" />
+        <meta name="keywords" content="Robert Balonek, Bay Area Baritone, Verdi Baritone, Baritone, Opera, Classical Singer, Figaro, Oratorio, Scarpia, Iago, Rigoletto" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Robert Balonek" />
+        <meta name="publisher" content="Robert Balonek " />
+        <link rel="canonical" href="https://www.robertbalonek.com/about" />
+  </Helmet>
       <div className="about__split">
         <div className="about__copy">
           <h1>What about Bob?</h1>
@@ -16,7 +27,7 @@ export default function About() {
             
           </p>
           <p>
-          This season, he is the title role in Opera San Jose’s first Sunday Matinee of Rigoletto, Father Capulet in Opera San Jose’s Romeo Et Juliette, and also as Figaro in Piedmont Opera’s Le Nozze di Figaro.
+          This season, he is the title role in Opera San Jose’s first Sunday Matinee of Rigoletto, Father Capulet in Opera San Jose’s Romeo Et Juliette, and also as Figaro in Piedmont Opera’s Le Nozze di Figaro, the Count in Modesto Opera's Le Nozze di Figaro, Marcello in Opera on the James' Boheme, Tonio in Auburn symphony's Pagliacci, and Iago in West Bay Opera's Otello. 
           </p>
           <p style={{ color: "red" }}>
           Recent performances include the title roles in Rigoletto (Opera San Jose / BOONJ), The Flying Dutchman ( West Bay Opera ) Britten’s Owen Wingrave (LOTNY),Barber of Seville ( OOTJ,BMO, Mendocino Music Fest), and Gianni Schicchi ( Purchase PAC ).

@@ -1,9 +1,19 @@
 import React from "react";
 import "./Media.css";
+import { Helmet } from "react-helmet";
 
 export default function Media(props) {
   return (
     <div className="media__container">
+    <Helmet>
+    <title>Media - Robert Balonek - Bay Area Baritone</title>
+    <meta name="description" content="Learn more about Robert Balonek, a Bay Area Baritone specializing in Verdi Baritone roles, Rigoletto, Iago, Scarpia" />
+        <meta name="keywords" content="Robert Balonek, Bay Area Baritone, Verdi Baritone, Baritone, Opera, Classical Singer, Figaro, Oratorio, Scarpia, Iago, Rigoletto" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Robert Balonek" />
+        <meta name="publisher" content="Robert Balonek " />
+        <link rel="canonical" href="https://www.robertbalonek.com/media" />
+  </Helmet>
       
         <div className="video__section">
        

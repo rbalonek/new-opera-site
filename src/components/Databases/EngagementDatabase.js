@@ -1,13 +1,35 @@
 const Performances = [
   {
     tickets: "true",
+    ticketLink: "https://www.wbopera.org/tickets",
+    role: "Iago",
+    opera: "Otello",
+    composer: "Verdi",
+    company: "West Bay Opera",
+    logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1679178345/robertbalonek.com/Logos/WBO_abejo3.webp",
+    dates: "May 23, 25, 31 June 1st 2025",
+    venue: "LUCIE STERN THEATRE Palo Alto CA",
+    modalImages: [
+    "",
+    ],
+    reviews: [
+      {
+        Quote:
+          "",
+        From: "",
+      },
+     
+    ],
+  },
+  {
+    tickets: "true",
     ticketLink: "https://www.auburnsymphony.com/",
     role: "Tonio",
     opera: "Pagliacci",
     composer: "Leoncavallo",
     company: "Auburn Symphony",
     logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1659297756/robertbalonek.com/Logos/Screen_Shot_2022-07-31_at_1.01.59_PM_tz3qia.png",
-    dates: "March 8th 6PM & March 9th 3PM 2025",
+    dates: "March 8th & March 9th 2025",
     venue: "",
     modalImages: [
       "",
@@ -42,7 +64,7 @@ const Performances = [
     ],
   },
   {
-    tickets: "true",
+    tickets: "false",
     ticketLink: "https://www.operamodesto.org",
     role: "Count Almaviva",
     opera: "Le Nozze di Figaro",
@@ -52,13 +74,21 @@ const Performances = [
     dates: "Sept 2024",
     venue: "Gallo Center for the Arts, Modesto CA",
     modalImages: [
-      "",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1728239092/robertbalonek.com/Performances/Nozze%20-%20Count%20-%20Modesto%202024/_61a2203_vha2xg.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1728239091/robertbalonek.com/Performances/Nozze%20-%20Count%20-%20Modesto%202024/190a5291_osykng.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1728239092/robertbalonek.com/Performances/Nozze%20-%20Count%20-%20Modesto%202024/_61a2213_1_usvzlz.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1728239089/robertbalonek.com/Performances/Nozze%20-%20Count%20-%20Modesto%202024/190a5521_er6t32.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1728239085/robertbalonek.com/Performances/Nozze%20-%20Count%20-%20Modesto%202024/_61a2095-enhanced-nr_nt3fmt.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1728239094/robertbalonek.com/Performances/Nozze%20-%20Count%20-%20Modesto%202024/IMG_0549_co5aki.jpg",
+      "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1728239094/robertbalonek.com/Performances/Nozze%20-%20Count%20-%20Modesto%202024/190a5472_copy_f2e5he.jpg",
+
+
     ],
     reviews: [
       {
         Quote:
-          "",
-        From: "",
+          "But no one in the cast was required to be more pompous and proud than Count Almaviva, and Robert Balonek played the role to a nearly porcine extent.  The entire conceit behind this story was the tendency or expectation that a master would seduce his servant girl on her wedding night – which is a truly despicable power move.  And given the opera was a subversive satire of the upper classes, Balonek had to play the Count to be unwitting and unaware of his own hubris – which he did to an infuriating degree.  (Balonek as Scarpia in Opera Modesto’s Tosca was just as smarmy and maladjusted and evil.  He has a type.)  ",
+        From: "northbaystageandscreen.com",
       },
     ],
   },
