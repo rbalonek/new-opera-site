@@ -1,13 +1,35 @@
 const Performances = [
   {
     tickets: "true",
+    ticketLink: "https://www.wbopera.org/tickets",
+    role: "Iago",
+    opera: "Otello",
+    composer: "Verdi",
+    company: "West Bay Opera",
+    logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1679178345/robertbalonek.com/Logos/WBO_abejo3.webp",
+    dates: "May 23, 25, 31 June 1st 2025",
+    venue: "LUCIE STERN THEATRE Palo Alto CA",
+    modalImages: [
+    "",
+    ],
+    reviews: [
+      {
+        Quote:
+          "",
+        From: "",
+      },
+     
+    ],
+  },
+  {
+    tickets: "true",
     ticketLink: "https://www.auburnsymphony.com/",
     role: "Tonio",
     opera: "Pagliacci",
     composer: "Leoncavallo",
     company: "Auburn Symphony",
     logo: "https://res.cloudinary.com/bobalobbadingdong/image/upload/v1659297756/robertbalonek.com/Logos/Screen_Shot_2022-07-31_at_1.01.59_PM_tz3qia.png",
-    dates: "March 8th 6PM & March 9th 3PM 2025",
+    dates: "March 8th & March 9th 2025",
     venue: "",
     modalImages: [
       "",
