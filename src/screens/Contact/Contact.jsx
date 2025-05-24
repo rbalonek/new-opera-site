@@ -19,39 +19,7 @@ export default function Contact(props) {
       <div className="contact__split">
         <div className="contact__copy">
           <h2 className="Red ">CONTACT</h2>
-          <h1>Peter Randsman</h1>
-          <h3>Randsman Artists Management</h3>
-          <h4>New York, NY 10036</h4>
-          <br />
-          <a
-            style={{ color: "white", textDecoration: "none" }}
-            href="tel:2122445874"
-          >
-            <p>Office: 212-244-5874</p>
-          </a>
-          <a
-            style={{ color: "white", textDecoration: "none" }}
-            href="tel:9174946654"
-          >
-            <p>Cell: 917-494-6654</p>
-          </a>
-          <br />
-          <a
-            style={{ color: "white", textDecoration: "none" }}
-            target="_blank"
-            rel="noopener noreferrer"
-            href="mailto:randsman@aol.com?"
-          >
-            <p>randsman@aol.com</p>
-          </a>
-          <a
-            style={{ color: "white" }}
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.randsman.com"
-          >
-            <p>http://www.randsman.com</p>
-          </a>
+          
           <br />
           <a
             style={{ color: "white", textDecoration: "none" }}
